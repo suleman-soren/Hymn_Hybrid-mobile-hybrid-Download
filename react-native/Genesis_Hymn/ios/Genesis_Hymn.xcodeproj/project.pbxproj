@@ -1,0 +1,2099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* Genesis_HymnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Genesis_HymnTests.m */; };
+		0891085F72664DC8B30D0A7F /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7502C4353A4072962A4BD6 /* FontAwesome5_Solid.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		16F0E671F8FF7608FC9479B3 /* libPods-Genesis_Hymn-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0B104458A66FAD8BF9F985 /* libPods-Genesis_Hymn-tvOS.a */; };
+		174F7D1B255520FB00C42A5D /* 538.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C2E255520FB00C42A5D /* 538.txt */; };
+		174F7D1C255520FB00C42A5D /* 29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C2F255520FB00C42A5D /* 29.txt */; };
+		174F7D1D255520FB00C42A5D /* 15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C30255520FB00C42A5D /* 15.txt */; };
+		174F7D1E255520FB00C42A5D /* 100.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C31255520FB00C42A5D /* 100.txt */; };
+		174F7D1F255520FB00C42A5D /* 128.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C32255520FB00C42A5D /* 128.txt */; };
+		174F7D20255520FB00C42A5D /* 470.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C33255520FB00C42A5D /* 470.txt */; };
+		174F7D21255520FB00C42A5D /* 458.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C34255520FB00C42A5D /* 458.txt */; };
+		174F7D22255520FB00C42A5D /* 303.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C35255520FB00C42A5D /* 303.txt */; };
+		174F7D23255520FB00C42A5D /* 101.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C36255520FB00C42A5D /* 101.txt */; };
+		174F7D24255520FB00C42A5D /* 115.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C37255520FB00C42A5D /* 115.txt */; };
+		174F7D25255520FB00C42A5D /* 249.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C38255520FB00C42A5D /* 249.txt */; };
+		174F7D26255520FB00C42A5D /* 16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C39255520FB00C42A5D /* 16.txt */; };
+		174F7D27255520FB00C42A5D /* 103.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C3A255520FB00C42A5D /* 103.txt */; };
+		174F7D28255520FB00C42A5D /* 665.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C3B255520FB00C42A5D /* 665.txt */; };
+		174F7D29255520FB00C42A5D /* 671.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C3C255520FB00C42A5D /* 671.txt */; };
+		174F7D2A255520FB00C42A5D /* 301.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C3D255520FB00C42A5D /* 301.txt */; };
+		174F7D2B255520FB00C42A5D /* 473.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C3E255520FB00C42A5D /* 473.txt */; };
+		174F7D2C255520FB00C42A5D /* 329.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C3F255520FB00C42A5D /* 329.txt */; };
+		174F7D2D255520FB00C42A5D /* 328.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C40255520FB00C42A5D /* 328.txt */; };
+		174F7D2E255520FB00C42A5D /* 314.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C41255520FB00C42A5D /* 314.txt */; };
+		174F7D2F255520FB00C42A5D /* 300.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C42255520FB00C42A5D /* 300.txt */; };
+		174F7D30255520FB00C42A5D /* 499.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C43255520FB00C42A5D /* 499.txt */; };
+		174F7D31255520FB00C42A5D /* 506.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C44255520FB00C42A5D /* 506.txt */; };
+		174F7D32255520FB00C42A5D /* 274.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C45255520FB00C42A5D /* 274.txt */; };
+		174F7D33255520FB00C42A5D /* 516.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C46255520FB00C42A5D /* 516.txt */; };
+		174F7D34255520FB00C42A5D /* 660.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C47255520FB00C42A5D /* 660.txt */; };
+		174F7D35255520FB00C42A5D /* 674.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C48255520FB00C42A5D /* 674.txt */; };
+		174F7D36255520FB00C42A5D /* 462.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C49255520FB00C42A5D /* 462.txt */; };
+		174F7D37255520FB00C42A5D /* 477.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C4A255520FB00C42A5D /* 477.txt */; };
+		174F7D38255520FB00C42A5D /* 463.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C4B255520FB00C42A5D /* 463.txt */; };
+		174F7D39255520FB00C42A5D /* 12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C4C255520FB00C42A5D /* 12.txt */; };
+		174F7D3A255520FB00C42A5D /* 271.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C4D255520FB00C42A5D /* 271.txt */; };
+		174F7D3B255520FB00C42A5D /* 517.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C4E255520FB00C42A5D /* 517.txt */; };
+		174F7D3C255520FB00C42A5D /* 529.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C4F255520FB00C42A5D /* 529.txt */; };
+		174F7D3D255520FB00C42A5D /* joachim_neander.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C50255520FB00C42A5D /* joachim_neander.txt */; };
+		174F7D3E255520FB00C42A5D /* 306.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C51255520FB00C42A5D /* 306.txt */; };
+		174F7D3F255520FB00C42A5D /* 312.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C52255520FB00C42A5D /* 312.txt */; };
+		174F7D40255520FB00C42A5D /* 662.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C53255520FB00C42A5D /* 662.txt */; };
+		174F7D41255520FB00C42A5D /* 138.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C54255520FB00C42A5D /* 138.txt */; };
+		174F7D42255520FB00C42A5D /* 39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C55255520FB00C42A5D /* 39.txt */; };
+		174F7D43255520FB00C42A5D /* 11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C56255520FB00C42A5D /* 11.txt */; };
+		174F7D44255520FB00C42A5D /* 272.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C57255520FB00C42A5D /* 272.txt */; };
+		174F7D45255520FB00C42A5D /* 266.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C58255520FB00C42A5D /* 266.txt */; };
+		174F7D46255520FB00C42A5D /* 500.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C59255520FB00C42A5D /* 500.txt */; };
+		174F7D47255520FB00C42A5D /* 201.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C5A255520FB00C42A5D /* 201.txt */; };
+		174F7D48255520FB00C42A5D /* 567.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C5B255520FB00C42A5D /* 567.txt */; };
+		174F7D49255520FB00C42A5D /* 229.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C5C255520FB00C42A5D /* 229.txt */; };
+		174F7D4A255520FB00C42A5D /* 76.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C5D255520FB00C42A5D /* 76.txt */; };
+		174F7D4B255520FB00C42A5D /* 163.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C5E255520FB00C42A5D /* 163.txt */; };
+		174F7D4C255520FB00C42A5D /* 413.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C5F255520FB00C42A5D /* 413.txt */; };
+		174F7D4D255520FB00C42A5D /* 348.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C60255520FB00C42A5D /* 348.txt */; };
+		174F7D4E255520FB00C42A5D /* 604.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C61255520FB00C42A5D /* 604.txt */; };
+		174F7D4F255520FB00C42A5D /* 88.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C62255520FB00C42A5D /* 88.txt */; };
+		174F7D50255520FB00C42A5D /* 228.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C63255520FB00C42A5D /* 228.txt */; };
+		174F7D51255520FB00C42A5D /* 572.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C64255520FB00C42A5D /* 572.txt */; };
+		174F7D52255520FB00C42A5D /* 216.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C65255520FB00C42A5D /* 216.txt */; };
+		174F7D53255520FB00C42A5D /* 202.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C66255520FB00C42A5D /* 202.txt */; };
+		174F7D54255520FB00C42A5D /* 612.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C67255520FB00C42A5D /* 612.txt */; };
+		174F7D55255520FB00C42A5D /* 404.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C68255520FB00C42A5D /* 404.txt */; };
+		174F7D56255520FB00C42A5D /* 74.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C69255520FB00C42A5D /* 74.txt */; };
+		174F7D57255520FB00C42A5D /* 48.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C6A255520FB00C42A5D /* 48.txt */; };
+		174F7D58255520FB00C42A5D /* 559.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C6B255520FB00C42A5D /* 559.txt */; };
+		174F7D59255520FB00C42A5D /* 565.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C6C255520FB00C42A5D /* 565.txt */; };
+		174F7D5A255520FB00C42A5D /* 213.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C6D255520FB00C42A5D /* 213.txt */; };
+		174F7D5B255520FB00C42A5D /* 207.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C6E255520FB00C42A5D /* 207.txt */; };
+		174F7D5C255520FB00C42A5D /* 64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C6F255520FB00C42A5D /* 64.txt */; };
+		174F7D5D255520FB00C42A5D /* 70.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C70255520FB00C42A5D /* 70.txt */; };
+		174F7D5E255520FB00C42A5D /* 159.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C71255520FB00C42A5D /* 159.txt */; };
+		174F7D5F255520FB00C42A5D /* 171.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C72255520FB00C42A5D /* 171.txt */; };
+		174F7D60255520FB00C42A5D /* 401.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C73255520FB00C42A5D /* 401.txt */; };
+		174F7D61255520FB00C42A5D /* 367.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C74255520FB00C42A5D /* 367.txt */; };
+		174F7D62255520FB00C42A5D /* 373.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C75255520FB00C42A5D /* 373.txt */; };
+		174F7D63255520FB00C42A5D /* 428.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C76255520FB00C42A5D /* 428.txt */; };
+		174F7D64255520FB00C42A5D /* 65.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C77255520FB00C42A5D /* 65.txt */; };
+		174F7D65255520FB00C42A5D /* 206.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C78255520FB00C42A5D /* 206.txt */; };
+		174F7D66255520FC00C42A5D /* 574.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C79255520FB00C42A5D /* 574.txt */; };
+		174F7D67255520FC00C42A5D /* 548.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C7A255520FB00C42A5D /* 548.txt */; };
+		174F7D68255520FC00C42A5D /* 204.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C7B255520FB00C42A5D /* 204.txt */; };
+		174F7D69255520FC00C42A5D /* 210.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C7C255520FB00C42A5D /* 210.txt */; };
+		174F7D6A255520FC00C42A5D /* 576.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C7D255520FB00C42A5D /* 576.txt */; };
+		174F7D6B255520FC00C42A5D /* 73.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C7E255520FB00C42A5D /* 73.txt */; };
+		174F7D6C255520FC00C42A5D /* 614.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C7F255520FB00C42A5D /* 614.txt */; };
+		174F7D6D255520FC00C42A5D /* 166.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C80255520FB00C42A5D /* 166.txt */; };
+		174F7D6E255520FC00C42A5D /* 358.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C81255520FB00C42A5D /* 358.txt */; };
+		174F7D6F255520FC00C42A5D /* 370.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C82255520FB00C42A5D /* 370.txt */; };
+		174F7D70255520FC00C42A5D /* 365.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C83255520FB00C42A5D /* 365.txt */; };
+		174F7D71255520FC00C42A5D /* 99.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C84255520FB00C42A5D /* 99.txt */; };
+		174F7D72255520FC00C42A5D /* 601.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C85255520FB00C42A5D /* 601.txt */; };
+		174F7D73255520FC00C42A5D /* 615.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C86255520FB00C42A5D /* 615.txt */; };
+		174F7D74255520FC00C42A5D /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C87255520FB00C42A5D /* 8.txt */; };
+		174F7D75255520FC00C42A5D /* 198.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C88255520FB00C42A5D /* 198.txt */; };
+		174F7D76255520FC00C42A5D /* 205.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C89255520FB00C42A5D /* 205.txt */; };
+		174F7D77255520FC00C42A5D /* 239.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C8A255520FB00C42A5D /* 239.txt */; };
+		174F7D78255520FC00C42A5D /* 591.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C8B255520FB00C42A5D /* 591.txt */; };
+		174F7D79255520FC00C42A5D /* 208.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C8C255520FB00C42A5D /* 208.txt */; };
+		174F7D7A255520FC00C42A5D /* 195.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C8D255520FB00C42A5D /* 195.txt */; };
+		174F7D7B255520FC00C42A5D /* 181.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C8E255520FB00C42A5D /* 181.txt */; };
+		174F7D7C255520FC00C42A5D /* 43.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C8F255520FB00C42A5D /* 43.txt */; };
+		174F7D7D255520FC00C42A5D /* 156.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C90255520FB00C42A5D /* 156.txt */; };
+		174F7D7E255520FC00C42A5D /* 142.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C91255520FB00C42A5D /* 142.txt */; };
+		174F7D7F255520FC00C42A5D /* 624.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C92255520FB00C42A5D /* 624.txt */; };
+		174F7D80255520FC00C42A5D /* 618.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C93255520FB00C42A5D /* 618.txt */; };
+		174F7D81255520FC00C42A5D /* 432.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C94255520FB00C42A5D /* 432.txt */; };
+		174F7D82255520FC00C42A5D /* 341.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C95255520FB00C42A5D /* 341.txt */; };
+		174F7D83255520FC00C42A5D /* 355.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C96255520FB00C42A5D /* 355.txt */; };
+		174F7D84255520FC00C42A5D /* 619.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C97255520FB00C42A5D /* 619.txt */; };
+		174F7D85255520FC00C42A5D /* 143.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C98255520FB00C42A5D /* 143.txt */; };
+		174F7D86255520FC00C42A5D /* 157.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C99255520FB00C42A5D /* 157.txt */; };
+		174F7D87255520FC00C42A5D /* 56.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C9A255520FB00C42A5D /* 56.txt */; };
+		174F7D88255520FC00C42A5D /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C9B255520FB00C42A5D /* 4.txt */; };
+		174F7D89255520FC00C42A5D /* 221.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C9C255520FB00C42A5D /* 221.txt */; };
+		174F7D8A255520FC00C42A5D /* 590.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C9D255520FB00C42A5D /* 590.txt */; };
+		174F7D8B255520FC00C42A5D /* 237.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C9E255520FB00C42A5D /* 237.txt */; };
+		174F7D8C255520FC00C42A5D /* 551.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7C9F255520FB00C42A5D /* 551.txt */; };
+		174F7D8D255520FC00C42A5D /* 545.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA0255520FB00C42A5D /* 545.txt */; };
+		174F7D8E255520FC00C42A5D /* 223.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA1255520FB00C42A5D /* 223.txt */; };
+		174F7D8F255520FC00C42A5D /* 182.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA2255520FB00C42A5D /* 182.txt */; };
+		174F7D90255520FC00C42A5D /* 196.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA3255520FB00C42A5D /* 196.txt */; };
+		174F7D91255520FC00C42A5D /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA4255520FB00C42A5D /* 6.txt */; };
+		174F7D92255520FC00C42A5D /* 141.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA5255520FB00C42A5D /* 141.txt */; };
+		174F7D93255520FC00C42A5D /* 83.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA6255520FB00C42A5D /* 83.txt */; };
+		174F7D94255520FC00C42A5D /* 96.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA7255520FB00C42A5D /* 96.txt */; };
+		174F7D95255520FC00C42A5D /* 82.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA8255520FB00C42A5D /* 82.txt */; };
+		174F7D96255520FC00C42A5D /* 154.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CA9255520FB00C42A5D /* 154.txt */; };
+		174F7D97255520FC00C42A5D /* 632.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CAA255520FB00C42A5D /* 632.txt */; };
+		174F7D98255520FC00C42A5D /* 626.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CAB255520FB00C42A5D /* 626.txt */; };
+		174F7D99255520FC00C42A5D /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CAC255520FB00C42A5D /* 7.txt */; };
+		174F7D9A255520FC00C42A5D /* 183.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CAD255520FB00C42A5D /* 183.txt */; };
+		174F7D9B255520FC00C42A5D /* 222.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CAE255520FB00C42A5D /* 222.txt */; };
+		174F7D9C255520FC00C42A5D /* 236.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CAF255520FB00C42A5D /* 236.txt */; };
+		174F7D9D255520FC00C42A5D /* 554.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB0255520FB00C42A5D /* 554.txt */; };
+		174F7D9E255520FC00C42A5D /* 51.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB1255520FB00C42A5D /* 51.txt */; };
+		174F7D9F255520FC00C42A5D /* 92.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB2255520FB00C42A5D /* 92.txt */; };
+		174F7DA0255520FC00C42A5D /* 385.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB3255520FB00C42A5D /* 385.txt */; };
+		174F7DA1255520FC00C42A5D /* 421.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB4255520FB00C42A5D /* 421.txt */; };
+		174F7DA2255520FC00C42A5D /* 623.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB5255520FB00C42A5D /* 623.txt */; };
+		174F7DA3255520FC00C42A5D /* 93.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB6255520FB00C42A5D /* 93.txt */; };
+		174F7DA4255520FC00C42A5D /* 186.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB7255520FB00C42A5D /* 186.txt */; };
+		174F7DA5255520FC00C42A5D /* 50.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB8255520FB00C42A5D /* 50.txt */; };
+		174F7DA6255520FC00C42A5D /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CB9255520FB00C42A5D /* 2.txt */; };
+		174F7DA7255520FC00C42A5D /* 541.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CBA255520FB00C42A5D /* 541.txt */; };
+		174F7DA8255520FC00C42A5D /* 233.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CBB255520FB00C42A5D /* 233.txt */; };
+		174F7DA9255520FC00C42A5D /* 569.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CBC255520FB00C42A5D /* 569.txt */; };
+		174F7DAA255520FC00C42A5D /* 594.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CBD255520FB00C42A5D /* 594.txt */; };
+		174F7DAB255520FC00C42A5D /* 190.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CBE255520FB00C42A5D /* 190.txt */; };
+		174F7DAC255520FC00C42A5D /* 184.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CBF255520FB00C42A5D /* 184.txt */; };
+		174F7DAD255520FC00C42A5D /* 609.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC0255520FB00C42A5D /* 609.txt */; };
+		174F7DAE255520FC00C42A5D /* 85.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC1255520FB00C42A5D /* 85.txt */; };
+		174F7DAF255520FC00C42A5D /* 423.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC2255520FB00C42A5D /* 423.txt */; };
+		174F7DB0255520FC00C42A5D /* 344.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC3255520FB00C42A5D /* 344.txt */; };
+		174F7DB1255520FC00C42A5D /* 422.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC4255520FB00C42A5D /* 422.txt */; };
+		174F7DB2255520FC00C42A5D /* 350.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC5255520FB00C42A5D /* 350.txt */; };
+		174F7DB3255520FC00C42A5D /* 146.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC6255520FB00C42A5D /* 146.txt */; };
+		174F7DB4255520FC00C42A5D /* 152.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC7255520FB00C42A5D /* 152.txt */; };
+		174F7DB5255520FC00C42A5D /* 185.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC8255520FB00C42A5D /* 185.txt */; };
+		174F7DB6255520FC00C42A5D /* 191.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CC9255520FB00C42A5D /* 191.txt */; };
+		174F7DB7255520FC00C42A5D /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CCA255520FB00C42A5D /* 1.txt */; };
+		174F7DB8255520FC00C42A5D /* 53.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CCB255520FB00C42A5D /* 53.txt */; };
+		174F7DB9255520FC00C42A5D /* 230.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CCC255520FB00C42A5D /* 230.txt */; };
+		174F7DBA255520FC00C42A5D /* 595.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CCD255520FB00C42A5D /* 595.txt */; };
+		174F7DBB255520FC00C42A5D /* 280.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CCE255520FB00C42A5D /* 280.txt */; };
+		174F7DBC255520FC00C42A5D /* 294.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CCF255520FB00C42A5D /* 294.txt */; };
+		174F7DBD255520FC00C42A5D /* 525.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD0255520FB00C42A5D /* 525.txt */; };
+		174F7DBE255520FC00C42A5D /* 257.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD1255520FB00C42A5D /* 257.txt */; };
+		174F7DBF255520FC00C42A5D /* 690.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD2255520FB00C42A5D /* 690.txt */; };
+		174F7DC0255520FC00C42A5D /* 34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD3255520FB00C42A5D /* 34.txt */; };
+		174F7DC1255520FC00C42A5D /* 20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD4255520FB00C42A5D /* 20.txt */; };
+		174F7DC2255520FC00C42A5D /* 135.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD5255520FB00C42A5D /* 135.txt */; };
+		174F7DC3255520FC00C42A5D /* 109.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD6255520FB00C42A5D /* 109.txt */; };
+		174F7DC4255520FC00C42A5D /* 478.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD7255520FB00C42A5D /* 478.txt */; };
+		174F7DC5255520FC00C42A5D /* 336.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD8255520FB00C42A5D /* 336.txt */; };
+		174F7DC6255520FC00C42A5D /* 108.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CD9255520FB00C42A5D /* 108.txt */; };
+		174F7DC7255520FC00C42A5D /* 646.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CDA255520FB00C42A5D /* 646.txt */; };
+		174F7DC8255520FC00C42A5D /* 120.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CDB255520FB00C42A5D /* 120.txt */; };
+		174F7DC9255520FC00C42A5D /* 21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CDC255520FB00C42A5D /* 21.txt */; };
+		174F7DCA255520FC00C42A5D /* 691.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CDD255520FB00C42A5D /* 691.txt */; };
+		174F7DCB255520FC00C42A5D /* 518.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CDE255520FB00C42A5D /* 518.txt */; };
+		174F7DCC255520FC00C42A5D /* 256.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CDF255520FB00C42A5D /* 256.txt */; };
+		174F7DCD255520FC00C42A5D /* 530.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE0255520FB00C42A5D /* 530.txt */; };
+		174F7DCE255520FC00C42A5D /* 524.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE1255520FB00C42A5D /* 524.txt */; };
+		174F7DCF255520FC00C42A5D /* 295.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE2255520FB00C42A5D /* 295.txt */; };
+		174F7DD0255520FC00C42A5D /* 281.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE3255520FB00C42A5D /* 281.txt */; };
+		174F7DD1255520FC00C42A5D /* 254.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE4255520FB00C42A5D /* 254.txt */; };
+		174F7DD2255520FC00C42A5D /* 240.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE5255520FB00C42A5D /* 240.txt */; };
+		174F7DD3255520FC00C42A5D /* 268.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE6255520FB00C42A5D /* 268.txt */; };
+		174F7DD4255520FC00C42A5D /* 693.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE7255520FB00C42A5D /* 693.txt */; };
+		174F7DD5255520FC00C42A5D /* 122.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE8255520FB00C42A5D /* 122.txt */; };
+		174F7DD6255520FC00C42A5D /* 491.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CE9255520FB00C42A5D /* 491.txt */; };
+		174F7DD7255520FC00C42A5D /* 334.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CEA255520FB00C42A5D /* 334.txt */; };
+		174F7DD8255520FC00C42A5D /* 452.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CEB255520FB00C42A5D /* 452.txt */; };
+		174F7DD9255520FC00C42A5D /* 309.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CEC255520FB00C42A5D /* 309.txt */; };
+		174F7DDA255520FC00C42A5D /* 321.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CED255520FB00C42A5D /* 321.txt */; };
+		174F7DDB255520FC00C42A5D /* 484.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CEE255520FB00C42A5D /* 484.txt */; };
+		174F7DDC255520FC00C42A5D /* 137.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CEF255520FB00C42A5D /* 137.txt */; };
+		174F7DDD255520FC00C42A5D /* 123.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF0255520FB00C42A5D /* 123.txt */; };
+		174F7DDE255520FC00C42A5D /* 645.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF1255520FB00C42A5D /* 645.txt */; };
+		174F7DDF255520FC00C42A5D /* 692.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF2255520FB00C42A5D /* 692.txt */; };
+		174F7DE0255520FC00C42A5D /* 686.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF3255520FB00C42A5D /* 686.txt */; };
+		174F7DE1255520FC00C42A5D /* 241.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF4255520FB00C42A5D /* 241.txt */; };
+		174F7DE2255520FC00C42A5D /* 296.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF5255520FB00C42A5D /* 296.txt */; };
+		174F7DE3255520FC00C42A5D /* 286.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF6255520FB00C42A5D /* 286.txt */; };
+		174F7DE4255520FC00C42A5D /* 251.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF7255520FB00C42A5D /* 251.txt */; };
+		174F7DE5255520FC00C42A5D /* 537.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF8255520FB00C42A5D /* 537.txt */; };
+		174F7DE6255520FC00C42A5D /* 245.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CF9255520FB00C42A5D /* 245.txt */; };
+		174F7DE7255520FC00C42A5D /* 26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CFA255520FB00C42A5D /* 26.txt */; };
+		174F7DE8255520FC00C42A5D /* 655.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CFB255520FB00C42A5D /* 655.txt */; };
+		174F7DE9255520FC00C42A5D /* 457.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CFC255520FB00C42A5D /* 457.txt */; };
+		174F7DEA255520FC00C42A5D /* 331.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CFD255520FB00C42A5D /* 331.txt */; };
+		174F7DEB255520FC00C42A5D /* 456.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CFE255520FB00C42A5D /* 456.txt */; };
+		174F7DEC255520FC00C42A5D /* 318.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7CFF255520FB00C42A5D /* 318.txt */; };
+		174F7DED255520FC00C42A5D /* 495.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D00255520FB00C42A5D /* 495.txt */; };
+		174F7DEE255520FC00C42A5D /* 481.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D01255520FB00C42A5D /* 481.txt */; };
+		174F7DEF255520FC00C42A5D /* 132.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D02255520FB00C42A5D /* 132.txt */; };
+		174F7DF0255520FC00C42A5D /* 27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D03255520FB00C42A5D /* 27.txt */; };
+		174F7DF1255520FC00C42A5D /* 522.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D04255520FB00C42A5D /* 522.txt */; };
+		174F7DF2255520FC00C42A5D /* 250.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D05255520FB00C42A5D /* 250.txt */; };
+		174F7DF3255520FC00C42A5D /* 287.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D06255520FB00C42A5D /* 287.txt */; };
+		174F7DF4255520FC00C42A5D /* 285.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D07255520FB00C42A5D /* 285.txt */; };
+		174F7DF5255520FC00C42A5D /* 508.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D08255520FB00C42A5D /* 508.txt */; };
+		174F7DF6255520FC00C42A5D /* 246.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D09255520FB00C42A5D /* 246.txt */; };
+		174F7DF7255520FC00C42A5D /* 520.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D0A255520FB00C42A5D /* 520.txt */; };
+		174F7DF8255520FC00C42A5D /* 25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D0B255520FB00C42A5D /* 25.txt */; };
+		174F7DF9255520FC00C42A5D /* 681.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D0C255520FB00C42A5D /* 681.txt */; };
+		174F7DFA255520FC00C42A5D /* 19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D0D255520FB00C42A5D /* 19.txt */; };
+		174F7DFB255520FC00C42A5D /* 118.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D0E255520FB00C42A5D /* 118.txt */; };
+		174F7DFC255520FC00C42A5D /* 656.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D0F255520FB00C42A5D /* 656.txt */; };
+		174F7DFD255520FC00C42A5D /* 130.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D10255520FB00C42A5D /* 130.txt */; };
+		174F7DFE255520FC00C42A5D /* 483.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D11255520FB00C42A5D /* 483.txt */; };
+		174F7DFF255520FC00C42A5D /* 326.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D12255520FB00C42A5D /* 326.txt */; };
+		174F7E00255520FC00C42A5D /* 327.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D13255520FB00C42A5D /* 327.txt */; };
+		174F7E01255520FC00C42A5D /* 469.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D14255520FB00C42A5D /* 469.txt */; };
+		174F7E02255520FC00C42A5D /* 125.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D15255520FB00C42A5D /* 125.txt */; };
+		174F7E03255520FC00C42A5D /* 131.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D16255520FB00C42A5D /* 131.txt */; };
+		174F7E04255520FC00C42A5D /* 119.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D17255520FB00C42A5D /* 119.txt */; };
+		174F7E05255520FC00C42A5D /* 694.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D18255520FB00C42A5D /* 694.txt */; };
+		174F7E06255520FC00C42A5D /* 521.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D19255520FB00C42A5D /* 521.txt */; };
+		174F7E07255520FC00C42A5D /* 284.txt in Resources */ = {isa = PBXBuildFile; fileRef = 174F7D1A255520FB00C42A5D /* 284.txt */; };
+		1B445B911D7F4E6CBD34B1BC /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21D122B95731462FB39A7E6C /* Zocial.ttf */; };
+		2406D6394C654655A8146A99 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1959AB821F114092B1713169 /* EvilIcons.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* Genesis_HymnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Genesis_HymnTests.m */; };
+		3EAC5A044B9542B69204C199 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99BF35AFAF954A35805A43E2 /* Roboto-Thin.ttf */; };
+		58B2187CD8FD41A6A1F19AC1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70551AA218604514847A5A74 /* Roboto-Bold.ttf */; };
+		5B41D60FC0A243F489F2FFD8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E94FC58E0CD448B4BE7A83DA /* FontAwesome.ttf */; };
+		604ADF37233FA36151F0F1E5 /* libPods-Genesis_Hymn-Genesis_HymnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6A5CEC3DFAC7AA1358F4FA /* libPods-Genesis_Hymn-Genesis_HymnTests.a */; };
+		61B8920787724AA7B4BCBD2B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B443F03FD4C746229F3B16B8 /* Roboto-Medium.ttf */; };
+		65137AB399144300A298D666 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4383FCC6964F518F49A57B /* Roboto-Light.ttf */; };
+		7FCDD180BC208CB4C6E6FB89 /* libPods-Genesis_Hymn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F38A441A54260D586FE83366 /* libPods-Genesis_Hymn.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82B4F0E61B684931903BD1AD /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 631E47AC487A49C3BA58CF64 /* Ionicons.ttf */; };
+		9AD163177E1644FA83B56568 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B225556E75C24035B2236EDF /* NotoSans-Regular.ttf */; };
+		9BC48A29091447E5A3950F76 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93609483B32F47F1AF49F08A /* Octicons.ttf */; };
+		AC1AFAFDAB9C471EB008DE86 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E0C02D27A2E46009AE595E6 /* FontAwesome5_Brands.ttf */; };
+		AE634ACDDBD14F41A8BBD59E /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E32541B3C8AB4E15BFFE4FD8 /* Fontisto.ttf */; };
+		B0A697DBA9C0480393CB1BCC /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E410929424114A9E1508D /* FontAwesome5_Regular.ttf */; };
+		B49400B3DC8449C78B09F3C6 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF432771FC4BC9811BA841 /* SimpleLineIcons.ttf */; };
+		C4034E2F8795452197712F67 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646E924C257748B4AA2D4D72 /* MaterialCommunityIcons.ttf */; };
+		C4F14E5A5158485D83D26FAC /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2464D73621F4464A6B7732C /* Entypo.ttf */; };
+		C5DFC45DDD12436E9A442CCB /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17547C177AD142B3AF8DE362 /* NotoSans-Bold.ttf */; };
+		C66B8C7FB2274721A3FDB284 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2DE2F140E014652B3618C12 /* AntDesign.ttf */; };
+		CBBB99B4A53BE2F96916531E /* libPods-Genesis_Hymn-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7547C8835B8B3CC34CF3C132 /* libPods-Genesis_Hymn-tvOSTests.a */; };
+		CCBE70DCC45746DE82FD6FA6 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C65214F17B2A45FFA7888601 /* Roboto-Black.ttf */; };
+		D1DCFEBFFDED4345A2064BAB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBC0DCA0F3F5462286781548 /* MaterialIcons.ttf */; };
+		E96EAC80990C4235893279C0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE2D40AE98474134889DFB3F /* Foundation.ttf */; };
+		F209AB4601D545E497F2C1A9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A844B30542B34BC9A3C4D697 /* Roboto-Regular.ttf */; };
+		F94A8968350A4EDAA3DBE84E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1909A80211624C58992623FE /* Feather.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Genesis_Hymn;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Genesis_Hymn-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* Genesis_HymnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Genesis_HymnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* Genesis_HymnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Genesis_HymnTests.m; sourceTree = "<group>"; };
+		0975CEFE902189932D5040FD /* Pods-Genesis_Hymn-Genesis_HymnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn-Genesis_HymnTests.debug.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn-Genesis_HymnTests/Pods-Genesis_Hymn-Genesis_HymnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Genesis_Hymn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genesis_Hymn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Genesis_Hymn/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Genesis_Hymn/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Genesis_Hymn/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Genesis_Hymn/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Genesis_Hymn/main.m; sourceTree = "<group>"; };
+		174F7C2E255520FB00C42A5D /* 538.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 538.txt; sourceTree = "<group>"; };
+		174F7C2F255520FB00C42A5D /* 29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 29.txt; sourceTree = "<group>"; };
+		174F7C30255520FB00C42A5D /* 15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 15.txt; sourceTree = "<group>"; };
+		174F7C31255520FB00C42A5D /* 100.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 100.txt; sourceTree = "<group>"; };
+		174F7C32255520FB00C42A5D /* 128.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 128.txt; sourceTree = "<group>"; };
+		174F7C33255520FB00C42A5D /* 470.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 470.txt; sourceTree = "<group>"; };
+		174F7C34255520FB00C42A5D /* 458.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 458.txt; sourceTree = "<group>"; };
+		174F7C35255520FB00C42A5D /* 303.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 303.txt; sourceTree = "<group>"; };
+		174F7C36255520FB00C42A5D /* 101.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 101.txt; sourceTree = "<group>"; };
+		174F7C37255520FB00C42A5D /* 115.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 115.txt; sourceTree = "<group>"; };
+		174F7C38255520FB00C42A5D /* 249.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 249.txt; sourceTree = "<group>"; };
+		174F7C39255520FB00C42A5D /* 16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 16.txt; sourceTree = "<group>"; };
+		174F7C3A255520FB00C42A5D /* 103.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 103.txt; sourceTree = "<group>"; };
+		174F7C3B255520FB00C42A5D /* 665.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 665.txt; sourceTree = "<group>"; };
+		174F7C3C255520FB00C42A5D /* 671.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 671.txt; sourceTree = "<group>"; };
+		174F7C3D255520FB00C42A5D /* 301.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 301.txt; sourceTree = "<group>"; };
+		174F7C3E255520FB00C42A5D /* 473.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 473.txt; sourceTree = "<group>"; };
+		174F7C3F255520FB00C42A5D /* 329.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 329.txt; sourceTree = "<group>"; };
+		174F7C40255520FB00C42A5D /* 328.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 328.txt; sourceTree = "<group>"; };
+		174F7C41255520FB00C42A5D /* 314.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 314.txt; sourceTree = "<group>"; };
+		174F7C42255520FB00C42A5D /* 300.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 300.txt; sourceTree = "<group>"; };
+		174F7C43255520FB00C42A5D /* 499.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 499.txt; sourceTree = "<group>"; };
+		174F7C44255520FB00C42A5D /* 506.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 506.txt; sourceTree = "<group>"; };
+		174F7C45255520FB00C42A5D /* 274.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 274.txt; sourceTree = "<group>"; };
+		174F7C46255520FB00C42A5D /* 516.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 516.txt; sourceTree = "<group>"; };
+		174F7C47255520FB00C42A5D /* 660.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 660.txt; sourceTree = "<group>"; };
+		174F7C48255520FB00C42A5D /* 674.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 674.txt; sourceTree = "<group>"; };
+		174F7C49255520FB00C42A5D /* 462.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 462.txt; sourceTree = "<group>"; };
+		174F7C4A255520FB00C42A5D /* 477.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 477.txt; sourceTree = "<group>"; };
+		174F7C4B255520FB00C42A5D /* 463.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 463.txt; sourceTree = "<group>"; };
+		174F7C4C255520FB00C42A5D /* 12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12.txt; sourceTree = "<group>"; };
+		174F7C4D255520FB00C42A5D /* 271.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 271.txt; sourceTree = "<group>"; };
+		174F7C4E255520FB00C42A5D /* 517.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 517.txt; sourceTree = "<group>"; };
+		174F7C4F255520FB00C42A5D /* 529.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 529.txt; sourceTree = "<group>"; };
+		174F7C50255520FB00C42A5D /* joachim_neander.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = joachim_neander.txt; sourceTree = "<group>"; };
+		174F7C51255520FB00C42A5D /* 306.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 306.txt; sourceTree = "<group>"; };
+		174F7C52255520FB00C42A5D /* 312.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 312.txt; sourceTree = "<group>"; };
+		174F7C53255520FB00C42A5D /* 662.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 662.txt; sourceTree = "<group>"; };
+		174F7C54255520FB00C42A5D /* 138.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 138.txt; sourceTree = "<group>"; };
+		174F7C55255520FB00C42A5D /* 39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 39.txt; sourceTree = "<group>"; };
+		174F7C56255520FB00C42A5D /* 11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 11.txt; sourceTree = "<group>"; };
+		174F7C57255520FB00C42A5D /* 272.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 272.txt; sourceTree = "<group>"; };
+		174F7C58255520FB00C42A5D /* 266.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 266.txt; sourceTree = "<group>"; };
+		174F7C59255520FB00C42A5D /* 500.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 500.txt; sourceTree = "<group>"; };
+		174F7C5A255520FB00C42A5D /* 201.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 201.txt; sourceTree = "<group>"; };
+		174F7C5B255520FB00C42A5D /* 567.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 567.txt; sourceTree = "<group>"; };
+		174F7C5C255520FB00C42A5D /* 229.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 229.txt; sourceTree = "<group>"; };
+		174F7C5D255520FB00C42A5D /* 76.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 76.txt; sourceTree = "<group>"; };
+		174F7C5E255520FB00C42A5D /* 163.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 163.txt; sourceTree = "<group>"; };
+		174F7C5F255520FB00C42A5D /* 413.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 413.txt; sourceTree = "<group>"; };
+		174F7C60255520FB00C42A5D /* 348.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 348.txt; sourceTree = "<group>"; };
+		174F7C61255520FB00C42A5D /* 604.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 604.txt; sourceTree = "<group>"; };
+		174F7C62255520FB00C42A5D /* 88.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 88.txt; sourceTree = "<group>"; };
+		174F7C63255520FB00C42A5D /* 228.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 228.txt; sourceTree = "<group>"; };
+		174F7C64255520FB00C42A5D /* 572.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 572.txt; sourceTree = "<group>"; };
+		174F7C65255520FB00C42A5D /* 216.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 216.txt; sourceTree = "<group>"; };
+		174F7C66255520FB00C42A5D /* 202.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 202.txt; sourceTree = "<group>"; };
+		174F7C67255520FB00C42A5D /* 612.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 612.txt; sourceTree = "<group>"; };
+		174F7C68255520FB00C42A5D /* 404.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 404.txt; sourceTree = "<group>"; };
+		174F7C69255520FB00C42A5D /* 74.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 74.txt; sourceTree = "<group>"; };
+		174F7C6A255520FB00C42A5D /* 48.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 48.txt; sourceTree = "<group>"; };
+		174F7C6B255520FB00C42A5D /* 559.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 559.txt; sourceTree = "<group>"; };
+		174F7C6C255520FB00C42A5D /* 565.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 565.txt; sourceTree = "<group>"; };
+		174F7C6D255520FB00C42A5D /* 213.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 213.txt; sourceTree = "<group>"; };
+		174F7C6E255520FB00C42A5D /* 207.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 207.txt; sourceTree = "<group>"; };
+		174F7C6F255520FB00C42A5D /* 64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 64.txt; sourceTree = "<group>"; };
+		174F7C70255520FB00C42A5D /* 70.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 70.txt; sourceTree = "<group>"; };
+		174F7C71255520FB00C42A5D /* 159.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 159.txt; sourceTree = "<group>"; };
+		174F7C72255520FB00C42A5D /* 171.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 171.txt; sourceTree = "<group>"; };
+		174F7C73255520FB00C42A5D /* 401.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 401.txt; sourceTree = "<group>"; };
+		174F7C74255520FB00C42A5D /* 367.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 367.txt; sourceTree = "<group>"; };
+		174F7C75255520FB00C42A5D /* 373.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 373.txt; sourceTree = "<group>"; };
+		174F7C76255520FB00C42A5D /* 428.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 428.txt; sourceTree = "<group>"; };
+		174F7C77255520FB00C42A5D /* 65.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 65.txt; sourceTree = "<group>"; };
+		174F7C78255520FB00C42A5D /* 206.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 206.txt; sourceTree = "<group>"; };
+		174F7C79255520FB00C42A5D /* 574.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 574.txt; sourceTree = "<group>"; };
+		174F7C7A255520FB00C42A5D /* 548.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 548.txt; sourceTree = "<group>"; };
+		174F7C7B255520FB00C42A5D /* 204.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 204.txt; sourceTree = "<group>"; };
+		174F7C7C255520FB00C42A5D /* 210.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 210.txt; sourceTree = "<group>"; };
+		174F7C7D255520FB00C42A5D /* 576.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 576.txt; sourceTree = "<group>"; };
+		174F7C7E255520FB00C42A5D /* 73.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 73.txt; sourceTree = "<group>"; };
+		174F7C7F255520FB00C42A5D /* 614.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 614.txt; sourceTree = "<group>"; };
+		174F7C80255520FB00C42A5D /* 166.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 166.txt; sourceTree = "<group>"; };
+		174F7C81255520FB00C42A5D /* 358.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 358.txt; sourceTree = "<group>"; };
+		174F7C82255520FB00C42A5D /* 370.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 370.txt; sourceTree = "<group>"; };
+		174F7C83255520FB00C42A5D /* 365.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 365.txt; sourceTree = "<group>"; };
+		174F7C84255520FB00C42A5D /* 99.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 99.txt; sourceTree = "<group>"; };
+		174F7C85255520FB00C42A5D /* 601.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 601.txt; sourceTree = "<group>"; };
+		174F7C86255520FB00C42A5D /* 615.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 615.txt; sourceTree = "<group>"; };
+		174F7C87255520FB00C42A5D /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
+		174F7C88255520FB00C42A5D /* 198.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 198.txt; sourceTree = "<group>"; };
+		174F7C89255520FB00C42A5D /* 205.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 205.txt; sourceTree = "<group>"; };
+		174F7C8A255520FB00C42A5D /* 239.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 239.txt; sourceTree = "<group>"; };
+		174F7C8B255520FB00C42A5D /* 591.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 591.txt; sourceTree = "<group>"; };
+		174F7C8C255520FB00C42A5D /* 208.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 208.txt; sourceTree = "<group>"; };
+		174F7C8D255520FB00C42A5D /* 195.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 195.txt; sourceTree = "<group>"; };
+		174F7C8E255520FB00C42A5D /* 181.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 181.txt; sourceTree = "<group>"; };
+		174F7C8F255520FB00C42A5D /* 43.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 43.txt; sourceTree = "<group>"; };
+		174F7C90255520FB00C42A5D /* 156.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 156.txt; sourceTree = "<group>"; };
+		174F7C91255520FB00C42A5D /* 142.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 142.txt; sourceTree = "<group>"; };
+		174F7C92255520FB00C42A5D /* 624.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 624.txt; sourceTree = "<group>"; };
+		174F7C93255520FB00C42A5D /* 618.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 618.txt; sourceTree = "<group>"; };
+		174F7C94255520FB00C42A5D /* 432.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 432.txt; sourceTree = "<group>"; };
+		174F7C95255520FB00C42A5D /* 341.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 341.txt; sourceTree = "<group>"; };
+		174F7C96255520FB00C42A5D /* 355.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 355.txt; sourceTree = "<group>"; };
+		174F7C97255520FB00C42A5D /* 619.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 619.txt; sourceTree = "<group>"; };
+		174F7C98255520FB00C42A5D /* 143.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 143.txt; sourceTree = "<group>"; };
+		174F7C99255520FB00C42A5D /* 157.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 157.txt; sourceTree = "<group>"; };
+		174F7C9A255520FB00C42A5D /* 56.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 56.txt; sourceTree = "<group>"; };
+		174F7C9B255520FB00C42A5D /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		174F7C9C255520FB00C42A5D /* 221.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 221.txt; sourceTree = "<group>"; };
+		174F7C9D255520FB00C42A5D /* 590.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 590.txt; sourceTree = "<group>"; };
+		174F7C9E255520FB00C42A5D /* 237.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 237.txt; sourceTree = "<group>"; };
+		174F7C9F255520FB00C42A5D /* 551.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 551.txt; sourceTree = "<group>"; };
+		174F7CA0255520FB00C42A5D /* 545.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 545.txt; sourceTree = "<group>"; };
+		174F7CA1255520FB00C42A5D /* 223.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 223.txt; sourceTree = "<group>"; };
+		174F7CA2255520FB00C42A5D /* 182.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 182.txt; sourceTree = "<group>"; };
+		174F7CA3255520FB00C42A5D /* 196.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 196.txt; sourceTree = "<group>"; };
+		174F7CA4255520FB00C42A5D /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		174F7CA5255520FB00C42A5D /* 141.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 141.txt; sourceTree = "<group>"; };
+		174F7CA6255520FB00C42A5D /* 83.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 83.txt; sourceTree = "<group>"; };
+		174F7CA7255520FB00C42A5D /* 96.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 96.txt; sourceTree = "<group>"; };
+		174F7CA8255520FB00C42A5D /* 82.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 82.txt; sourceTree = "<group>"; };
+		174F7CA9255520FB00C42A5D /* 154.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 154.txt; sourceTree = "<group>"; };
+		174F7CAA255520FB00C42A5D /* 632.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 632.txt; sourceTree = "<group>"; };
+		174F7CAB255520FB00C42A5D /* 626.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 626.txt; sourceTree = "<group>"; };
+		174F7CAC255520FB00C42A5D /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		174F7CAD255520FB00C42A5D /* 183.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 183.txt; sourceTree = "<group>"; };
+		174F7CAE255520FB00C42A5D /* 222.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 222.txt; sourceTree = "<group>"; };
+		174F7CAF255520FB00C42A5D /* 236.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 236.txt; sourceTree = "<group>"; };
+		174F7CB0255520FB00C42A5D /* 554.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 554.txt; sourceTree = "<group>"; };
+		174F7CB1255520FB00C42A5D /* 51.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 51.txt; sourceTree = "<group>"; };
+		174F7CB2255520FB00C42A5D /* 92.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 92.txt; sourceTree = "<group>"; };
+		174F7CB3255520FB00C42A5D /* 385.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 385.txt; sourceTree = "<group>"; };
+		174F7CB4255520FB00C42A5D /* 421.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 421.txt; sourceTree = "<group>"; };
+		174F7CB5255520FB00C42A5D /* 623.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 623.txt; sourceTree = "<group>"; };
+		174F7CB6255520FB00C42A5D /* 93.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 93.txt; sourceTree = "<group>"; };
+		174F7CB7255520FB00C42A5D /* 186.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 186.txt; sourceTree = "<group>"; };
+		174F7CB8255520FB00C42A5D /* 50.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 50.txt; sourceTree = "<group>"; };
+		174F7CB9255520FB00C42A5D /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		174F7CBA255520FB00C42A5D /* 541.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 541.txt; sourceTree = "<group>"; };
+		174F7CBB255520FB00C42A5D /* 233.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 233.txt; sourceTree = "<group>"; };
+		174F7CBC255520FB00C42A5D /* 569.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 569.txt; sourceTree = "<group>"; };
+		174F7CBD255520FB00C42A5D /* 594.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 594.txt; sourceTree = "<group>"; };
+		174F7CBE255520FB00C42A5D /* 190.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 190.txt; sourceTree = "<group>"; };
+		174F7CBF255520FB00C42A5D /* 184.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 184.txt; sourceTree = "<group>"; };
+		174F7CC0255520FB00C42A5D /* 609.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 609.txt; sourceTree = "<group>"; };
+		174F7CC1255520FB00C42A5D /* 85.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 85.txt; sourceTree = "<group>"; };
+		174F7CC2255520FB00C42A5D /* 423.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 423.txt; sourceTree = "<group>"; };
+		174F7CC3255520FB00C42A5D /* 344.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 344.txt; sourceTree = "<group>"; };
+		174F7CC4255520FB00C42A5D /* 422.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 422.txt; sourceTree = "<group>"; };
+		174F7CC5255520FB00C42A5D /* 350.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 350.txt; sourceTree = "<group>"; };
+		174F7CC6255520FB00C42A5D /* 146.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 146.txt; sourceTree = "<group>"; };
+		174F7CC7255520FB00C42A5D /* 152.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 152.txt; sourceTree = "<group>"; };
+		174F7CC8255520FB00C42A5D /* 185.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 185.txt; sourceTree = "<group>"; };
+		174F7CC9255520FB00C42A5D /* 191.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 191.txt; sourceTree = "<group>"; };
+		174F7CCA255520FB00C42A5D /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		174F7CCB255520FB00C42A5D /* 53.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 53.txt; sourceTree = "<group>"; };
+		174F7CCC255520FB00C42A5D /* 230.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230.txt; sourceTree = "<group>"; };
+		174F7CCD255520FB00C42A5D /* 595.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 595.txt; sourceTree = "<group>"; };
+		174F7CCE255520FB00C42A5D /* 280.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 280.txt; sourceTree = "<group>"; };
+		174F7CCF255520FB00C42A5D /* 294.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 294.txt; sourceTree = "<group>"; };
+		174F7CD0255520FB00C42A5D /* 525.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 525.txt; sourceTree = "<group>"; };
+		174F7CD1255520FB00C42A5D /* 257.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 257.txt; sourceTree = "<group>"; };
+		174F7CD2255520FB00C42A5D /* 690.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 690.txt; sourceTree = "<group>"; };
+		174F7CD3255520FB00C42A5D /* 34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 34.txt; sourceTree = "<group>"; };
+		174F7CD4255520FB00C42A5D /* 20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20.txt; sourceTree = "<group>"; };
+		174F7CD5255520FB00C42A5D /* 135.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 135.txt; sourceTree = "<group>"; };
+		174F7CD6255520FB00C42A5D /* 109.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 109.txt; sourceTree = "<group>"; };
+		174F7CD7255520FB00C42A5D /* 478.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 478.txt; sourceTree = "<group>"; };
+		174F7CD8255520FB00C42A5D /* 336.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 336.txt; sourceTree = "<group>"; };
+		174F7CD9255520FB00C42A5D /* 108.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 108.txt; sourceTree = "<group>"; };
+		174F7CDA255520FB00C42A5D /* 646.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 646.txt; sourceTree = "<group>"; };
+		174F7CDB255520FB00C42A5D /* 120.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 120.txt; sourceTree = "<group>"; };
+		174F7CDC255520FB00C42A5D /* 21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 21.txt; sourceTree = "<group>"; };
+		174F7CDD255520FB00C42A5D /* 691.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 691.txt; sourceTree = "<group>"; };
+		174F7CDE255520FB00C42A5D /* 518.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 518.txt; sourceTree = "<group>"; };
+		174F7CDF255520FB00C42A5D /* 256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 256.txt; sourceTree = "<group>"; };
+		174F7CE0255520FB00C42A5D /* 530.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 530.txt; sourceTree = "<group>"; };
+		174F7CE1255520FB00C42A5D /* 524.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 524.txt; sourceTree = "<group>"; };
+		174F7CE2255520FB00C42A5D /* 295.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 295.txt; sourceTree = "<group>"; };
+		174F7CE3255520FB00C42A5D /* 281.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 281.txt; sourceTree = "<group>"; };
+		174F7CE4255520FB00C42A5D /* 254.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 254.txt; sourceTree = "<group>"; };
+		174F7CE5255520FB00C42A5D /* 240.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 240.txt; sourceTree = "<group>"; };
+		174F7CE6255520FB00C42A5D /* 268.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 268.txt; sourceTree = "<group>"; };
+		174F7CE7255520FB00C42A5D /* 693.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 693.txt; sourceTree = "<group>"; };
+		174F7CE8255520FB00C42A5D /* 122.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 122.txt; sourceTree = "<group>"; };
+		174F7CE9255520FB00C42A5D /* 491.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 491.txt; sourceTree = "<group>"; };
+		174F7CEA255520FB00C42A5D /* 334.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 334.txt; sourceTree = "<group>"; };
+		174F7CEB255520FB00C42A5D /* 452.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 452.txt; sourceTree = "<group>"; };
+		174F7CEC255520FB00C42A5D /* 309.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 309.txt; sourceTree = "<group>"; };
+		174F7CED255520FB00C42A5D /* 321.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 321.txt; sourceTree = "<group>"; };
+		174F7CEE255520FB00C42A5D /* 484.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 484.txt; sourceTree = "<group>"; };
+		174F7CEF255520FB00C42A5D /* 137.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 137.txt; sourceTree = "<group>"; };
+		174F7CF0255520FB00C42A5D /* 123.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.txt; sourceTree = "<group>"; };
+		174F7CF1255520FB00C42A5D /* 645.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 645.txt; sourceTree = "<group>"; };
+		174F7CF2255520FB00C42A5D /* 692.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 692.txt; sourceTree = "<group>"; };
+		174F7CF3255520FB00C42A5D /* 686.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 686.txt; sourceTree = "<group>"; };
+		174F7CF4255520FB00C42A5D /* 241.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 241.txt; sourceTree = "<group>"; };
+		174F7CF5255520FB00C42A5D /* 296.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 296.txt; sourceTree = "<group>"; };
+		174F7CF6255520FB00C42A5D /* 286.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 286.txt; sourceTree = "<group>"; };
+		174F7CF7255520FB00C42A5D /* 251.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 251.txt; sourceTree = "<group>"; };
+		174F7CF8255520FB00C42A5D /* 537.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 537.txt; sourceTree = "<group>"; };
+		174F7CF9255520FB00C42A5D /* 245.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 245.txt; sourceTree = "<group>"; };
+		174F7CFA255520FB00C42A5D /* 26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 26.txt; sourceTree = "<group>"; };
+		174F7CFB255520FB00C42A5D /* 655.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 655.txt; sourceTree = "<group>"; };
+		174F7CFC255520FB00C42A5D /* 457.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 457.txt; sourceTree = "<group>"; };
+		174F7CFD255520FB00C42A5D /* 331.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 331.txt; sourceTree = "<group>"; };
+		174F7CFE255520FB00C42A5D /* 456.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 456.txt; sourceTree = "<group>"; };
+		174F7CFF255520FB00C42A5D /* 318.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 318.txt; sourceTree = "<group>"; };
+		174F7D00255520FB00C42A5D /* 495.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 495.txt; sourceTree = "<group>"; };
+		174F7D01255520FB00C42A5D /* 481.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 481.txt; sourceTree = "<group>"; };
+		174F7D02255520FB00C42A5D /* 132.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 132.txt; sourceTree = "<group>"; };
+		174F7D03255520FB00C42A5D /* 27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 27.txt; sourceTree = "<group>"; };
+		174F7D04255520FB00C42A5D /* 522.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 522.txt; sourceTree = "<group>"; };
+		174F7D05255520FB00C42A5D /* 250.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 250.txt; sourceTree = "<group>"; };
+		174F7D06255520FB00C42A5D /* 287.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 287.txt; sourceTree = "<group>"; };
+		174F7D07255520FB00C42A5D /* 285.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 285.txt; sourceTree = "<group>"; };
+		174F7D08255520FB00C42A5D /* 508.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 508.txt; sourceTree = "<group>"; };
+		174F7D09255520FB00C42A5D /* 246.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 246.txt; sourceTree = "<group>"; };
+		174F7D0A255520FB00C42A5D /* 520.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 520.txt; sourceTree = "<group>"; };
+		174F7D0B255520FB00C42A5D /* 25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 25.txt; sourceTree = "<group>"; };
+		174F7D0C255520FB00C42A5D /* 681.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 681.txt; sourceTree = "<group>"; };
+		174F7D0D255520FB00C42A5D /* 19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 19.txt; sourceTree = "<group>"; };
+		174F7D0E255520FB00C42A5D /* 118.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 118.txt; sourceTree = "<group>"; };
+		174F7D0F255520FB00C42A5D /* 656.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 656.txt; sourceTree = "<group>"; };
+		174F7D10255520FB00C42A5D /* 130.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 130.txt; sourceTree = "<group>"; };
+		174F7D11255520FB00C42A5D /* 483.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 483.txt; sourceTree = "<group>"; };
+		174F7D12255520FB00C42A5D /* 326.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 326.txt; sourceTree = "<group>"; };
+		174F7D13255520FB00C42A5D /* 327.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 327.txt; sourceTree = "<group>"; };
+		174F7D14255520FB00C42A5D /* 469.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 469.txt; sourceTree = "<group>"; };
+		174F7D15255520FB00C42A5D /* 125.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 125.txt; sourceTree = "<group>"; };
+		174F7D16255520FB00C42A5D /* 131.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 131.txt; sourceTree = "<group>"; };
+		174F7D17255520FB00C42A5D /* 119.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 119.txt; sourceTree = "<group>"; };
+		174F7D18255520FB00C42A5D /* 694.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 694.txt; sourceTree = "<group>"; };
+		174F7D19255520FB00C42A5D /* 521.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 521.txt; sourceTree = "<group>"; };
+		174F7D1A255520FB00C42A5D /* 284.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 284.txt; sourceTree = "<group>"; };
+		17547C177AD142B3AF8DE362 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Bold.ttf"; path = "../src/app/asset/fonts/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1909A80211624C58992623FE /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		1959AB821F114092B1713169 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		21D122B95731462FB39A7E6C /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		2B2E410929424114A9E1508D /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Genesis_Hymn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genesis_Hymn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Genesis_Hymn-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Genesis_Hymn-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5870B03D417211827D1F41 /* Pods-Genesis_Hymn-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn-tvOS/Pods-Genesis_Hymn-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4F35E06CAB0ADCAA2626728A /* Pods-Genesis_Hymn-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn-tvOSTests/Pods-Genesis_Hymn-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5855829636E62A2C11BDEF92 /* Pods-Genesis_Hymn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn.release.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn/Pods-Genesis_Hymn.release.xcconfig"; sourceTree = "<group>"; };
+		5F6A5CEC3DFAC7AA1358F4FA /* libPods-Genesis_Hymn-Genesis_HymnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Genesis_Hymn-Genesis_HymnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E47AC487A49C3BA58CF64 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		64572C8B184A5A6FFC4A8052 /* Pods-Genesis_Hymn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn.debug.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn/Pods-Genesis_Hymn.debug.xcconfig"; sourceTree = "<group>"; };
+		646E924C257748B4AA2D4D72 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		6F1DD0CE1318FA475A3B42AE /* Pods-Genesis_Hymn-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn-tvOS/Pods-Genesis_Hymn-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		70551AA218604514847A5A74 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/app/asset/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7547C8835B8B3CC34CF3C132 /* libPods-Genesis_Hymn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Genesis_Hymn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Genesis_Hymn/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83BC33E814FC3ADF8763D731 /* Pods-Genesis_Hymn-Genesis_HymnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn-Genesis_HymnTests.release.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn-Genesis_HymnTests/Pods-Genesis_Hymn-Genesis_HymnTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4383FCC6964F518F49A57B /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/app/asset/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		8AA10D5F67111395E42F4146 /* Pods-Genesis_Hymn-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genesis_Hymn-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Genesis_Hymn-tvOSTests/Pods-Genesis_Hymn-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E0C02D27A2E46009AE595E6 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		93609483B32F47F1AF49F08A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		99BF35AFAF954A35805A43E2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/app/asset/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A2DE2F140E014652B3618C12 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A844B30542B34BC9A3C4D697 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/app/asset/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		AE2D40AE98474134889DFB3F /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		B225556E75C24035B2236EDF /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSans-Regular.ttf"; path = "../src/app/asset/fonts/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		B2464D73621F4464A6B7732C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		B443F03FD4C746229F3B16B8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/app/asset/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BB0B104458A66FAD8BF9F985 /* libPods-Genesis_Hymn-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Genesis_Hymn-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65214F17B2A45FFA7888601 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/app/asset/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		DBC0DCA0F3F5462286781548 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		E32541B3C8AB4E15BFFE4FD8 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E94FC58E0CD448B4BE7A83DA /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F38A441A54260D586FE83366 /* libPods-Genesis_Hymn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Genesis_Hymn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EF432771FC4BC9811BA841 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		FB7502C4353A4072962A4BD6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604ADF37233FA36151F0F1E5 /* libPods-Genesis_Hymn-Genesis_HymnTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCDD180BC208CB4C6E6FB89 /* libPods-Genesis_Hymn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0E671F8FF7608FC9479B3 /* libPods-Genesis_Hymn-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBB99B4A53BE2F96916531E /* libPods-Genesis_Hymn-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* Genesis_HymnTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* Genesis_HymnTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = Genesis_HymnTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		115196A886C34E5CB67ECCE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17547C177AD142B3AF8DE362 /* NotoSans-Bold.ttf */,
+				B225556E75C24035B2236EDF /* NotoSans-Regular.ttf */,
+				C65214F17B2A45FFA7888601 /* Roboto-Black.ttf */,
+				70551AA218604514847A5A74 /* Roboto-Bold.ttf */,
+				8A4383FCC6964F518F49A57B /* Roboto-Light.ttf */,
+				B443F03FD4C746229F3B16B8 /* Roboto-Medium.ttf */,
+				A844B30542B34BC9A3C4D697 /* Roboto-Regular.ttf */,
+				99BF35AFAF954A35805A43E2 /* Roboto-Thin.ttf */,
+				A2DE2F140E014652B3618C12 /* AntDesign.ttf */,
+				B2464D73621F4464A6B7732C /* Entypo.ttf */,
+				1959AB821F114092B1713169 /* EvilIcons.ttf */,
+				1909A80211624C58992623FE /* Feather.ttf */,
+				E94FC58E0CD448B4BE7A83DA /* FontAwesome.ttf */,
+				8E0C02D27A2E46009AE595E6 /* FontAwesome5_Brands.ttf */,
+				2B2E410929424114A9E1508D /* FontAwesome5_Regular.ttf */,
+				FB7502C4353A4072962A4BD6 /* FontAwesome5_Solid.ttf */,
+				E32541B3C8AB4E15BFFE4FD8 /* Fontisto.ttf */,
+				AE2D40AE98474134889DFB3F /* Foundation.ttf */,
+				631E47AC487A49C3BA58CF64 /* Ionicons.ttf */,
+				646E924C257748B4AA2D4D72 /* MaterialCommunityIcons.ttf */,
+				DBC0DCA0F3F5462286781548 /* MaterialIcons.ttf */,
+				93609483B32F47F1AF49F08A /* Octicons.ttf */,
+				F5EF432771FC4BC9811BA841 /* SimpleLineIcons.ttf */,
+				21D122B95731462FB39A7E6C /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Genesis_Hymn */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Genesis_Hymn;
+			sourceTree = "<group>";
+		};
+		174F7C2D255520FB00C42A5D /* lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				174F7C2E255520FB00C42A5D /* 538.txt */,
+				174F7C2F255520FB00C42A5D /* 29.txt */,
+				174F7C30255520FB00C42A5D /* 15.txt */,
+				174F7C31255520FB00C42A5D /* 100.txt */,
+				174F7C32255520FB00C42A5D /* 128.txt */,
+				174F7C33255520FB00C42A5D /* 470.txt */,
+				174F7C34255520FB00C42A5D /* 458.txt */,
+				174F7C35255520FB00C42A5D /* 303.txt */,
+				174F7C36255520FB00C42A5D /* 101.txt */,
+				174F7C37255520FB00C42A5D /* 115.txt */,
+				174F7C38255520FB00C42A5D /* 249.txt */,
+				174F7C39255520FB00C42A5D /* 16.txt */,
+				174F7C3A255520FB00C42A5D /* 103.txt */,
+				174F7C3B255520FB00C42A5D /* 665.txt */,
+				174F7C3C255520FB00C42A5D /* 671.txt */,
+				174F7C3D255520FB00C42A5D /* 301.txt */,
+				174F7C3E255520FB00C42A5D /* 473.txt */,
+				174F7C3F255520FB00C42A5D /* 329.txt */,
+				174F7C40255520FB00C42A5D /* 328.txt */,
+				174F7C41255520FB00C42A5D /* 314.txt */,
+				174F7C42255520FB00C42A5D /* 300.txt */,
+				174F7C43255520FB00C42A5D /* 499.txt */,
+				174F7C44255520FB00C42A5D /* 506.txt */,
+				174F7C45255520FB00C42A5D /* 274.txt */,
+				174F7C46255520FB00C42A5D /* 516.txt */,
+				174F7C47255520FB00C42A5D /* 660.txt */,
+				174F7C48255520FB00C42A5D /* 674.txt */,
+				174F7C49255520FB00C42A5D /* 462.txt */,
+				174F7C4A255520FB00C42A5D /* 477.txt */,
+				174F7C4B255520FB00C42A5D /* 463.txt */,
+				174F7C4C255520FB00C42A5D /* 12.txt */,
+				174F7C4D255520FB00C42A5D /* 271.txt */,
+				174F7C4E255520FB00C42A5D /* 517.txt */,
+				174F7C4F255520FB00C42A5D /* 529.txt */,
+				174F7C50255520FB00C42A5D /* joachim_neander.txt */,
+				174F7C51255520FB00C42A5D /* 306.txt */,
+				174F7C52255520FB00C42A5D /* 312.txt */,
+				174F7C53255520FB00C42A5D /* 662.txt */,
+				174F7C54255520FB00C42A5D /* 138.txt */,
+				174F7C55255520FB00C42A5D /* 39.txt */,
+				174F7C56255520FB00C42A5D /* 11.txt */,
+				174F7C57255520FB00C42A5D /* 272.txt */,
+				174F7C58255520FB00C42A5D /* 266.txt */,
+				174F7C59255520FB00C42A5D /* 500.txt */,
+				174F7C5A255520FB00C42A5D /* 201.txt */,
+				174F7C5B255520FB00C42A5D /* 567.txt */,
+				174F7C5C255520FB00C42A5D /* 229.txt */,
+				174F7C5D255520FB00C42A5D /* 76.txt */,
+				174F7C5E255520FB00C42A5D /* 163.txt */,
+				174F7C5F255520FB00C42A5D /* 413.txt */,
+				174F7C60255520FB00C42A5D /* 348.txt */,
+				174F7C61255520FB00C42A5D /* 604.txt */,
+				174F7C62255520FB00C42A5D /* 88.txt */,
+				174F7C63255520FB00C42A5D /* 228.txt */,
+				174F7C64255520FB00C42A5D /* 572.txt */,
+				174F7C65255520FB00C42A5D /* 216.txt */,
+				174F7C66255520FB00C42A5D /* 202.txt */,
+				174F7C67255520FB00C42A5D /* 612.txt */,
+				174F7C68255520FB00C42A5D /* 404.txt */,
+				174F7C69255520FB00C42A5D /* 74.txt */,
+				174F7C6A255520FB00C42A5D /* 48.txt */,
+				174F7C6B255520FB00C42A5D /* 559.txt */,
+				174F7C6C255520FB00C42A5D /* 565.txt */,
+				174F7C6D255520FB00C42A5D /* 213.txt */,
+				174F7C6E255520FB00C42A5D /* 207.txt */,
+				174F7C6F255520FB00C42A5D /* 64.txt */,
+				174F7C70255520FB00C42A5D /* 70.txt */,
+				174F7C71255520FB00C42A5D /* 159.txt */,
+				174F7C72255520FB00C42A5D /* 171.txt */,
+				174F7C73255520FB00C42A5D /* 401.txt */,
+				174F7C74255520FB00C42A5D /* 367.txt */,
+				174F7C75255520FB00C42A5D /* 373.txt */,
+				174F7C76255520FB00C42A5D /* 428.txt */,
+				174F7C77255520FB00C42A5D /* 65.txt */,
+				174F7C78255520FB00C42A5D /* 206.txt */,
+				174F7C79255520FB00C42A5D /* 574.txt */,
+				174F7C7A255520FB00C42A5D /* 548.txt */,
+				174F7C7B255520FB00C42A5D /* 204.txt */,
+				174F7C7C255520FB00C42A5D /* 210.txt */,
+				174F7C7D255520FB00C42A5D /* 576.txt */,
+				174F7C7E255520FB00C42A5D /* 73.txt */,
+				174F7C7F255520FB00C42A5D /* 614.txt */,
+				174F7C80255520FB00C42A5D /* 166.txt */,
+				174F7C81255520FB00C42A5D /* 358.txt */,
+				174F7C82255520FB00C42A5D /* 370.txt */,
+				174F7C83255520FB00C42A5D /* 365.txt */,
+				174F7C84255520FB00C42A5D /* 99.txt */,
+				174F7C85255520FB00C42A5D /* 601.txt */,
+				174F7C86255520FB00C42A5D /* 615.txt */,
+				174F7C87255520FB00C42A5D /* 8.txt */,
+				174F7C88255520FB00C42A5D /* 198.txt */,
+				174F7C89255520FB00C42A5D /* 205.txt */,
+				174F7C8A255520FB00C42A5D /* 239.txt */,
+				174F7C8B255520FB00C42A5D /* 591.txt */,
+				174F7C8C255520FB00C42A5D /* 208.txt */,
+				174F7C8D255520FB00C42A5D /* 195.txt */,
+				174F7C8E255520FB00C42A5D /* 181.txt */,
+				174F7C8F255520FB00C42A5D /* 43.txt */,
+				174F7C90255520FB00C42A5D /* 156.txt */,
+				174F7C91255520FB00C42A5D /* 142.txt */,
+				174F7C92255520FB00C42A5D /* 624.txt */,
+				174F7C93255520FB00C42A5D /* 618.txt */,
+				174F7C94255520FB00C42A5D /* 432.txt */,
+				174F7C95255520FB00C42A5D /* 341.txt */,
+				174F7C96255520FB00C42A5D /* 355.txt */,
+				174F7C97255520FB00C42A5D /* 619.txt */,
+				174F7C98255520FB00C42A5D /* 143.txt */,
+				174F7C99255520FB00C42A5D /* 157.txt */,
+				174F7C9A255520FB00C42A5D /* 56.txt */,
+				174F7C9B255520FB00C42A5D /* 4.txt */,
+				174F7C9C255520FB00C42A5D /* 221.txt */,
+				174F7C9D255520FB00C42A5D /* 590.txt */,
+				174F7C9E255520FB00C42A5D /* 237.txt */,
+				174F7C9F255520FB00C42A5D /* 551.txt */,
+				174F7CA0255520FB00C42A5D /* 545.txt */,
+				174F7CA1255520FB00C42A5D /* 223.txt */,
+				174F7CA2255520FB00C42A5D /* 182.txt */,
+				174F7CA3255520FB00C42A5D /* 196.txt */,
+				174F7CA4255520FB00C42A5D /* 6.txt */,
+				174F7CA5255520FB00C42A5D /* 141.txt */,
+				174F7CA6255520FB00C42A5D /* 83.txt */,
+				174F7CA7255520FB00C42A5D /* 96.txt */,
+				174F7CA8255520FB00C42A5D /* 82.txt */,
+				174F7CA9255520FB00C42A5D /* 154.txt */,
+				174F7CAA255520FB00C42A5D /* 632.txt */,
+				174F7CAB255520FB00C42A5D /* 626.txt */,
+				174F7CAC255520FB00C42A5D /* 7.txt */,
+				174F7CAD255520FB00C42A5D /* 183.txt */,
+				174F7CAE255520FB00C42A5D /* 222.txt */,
+				174F7CAF255520FB00C42A5D /* 236.txt */,
+				174F7CB0255520FB00C42A5D /* 554.txt */,
+				174F7CB1255520FB00C42A5D /* 51.txt */,
+				174F7CB2255520FB00C42A5D /* 92.txt */,
+				174F7CB3255520FB00C42A5D /* 385.txt */,
+				174F7CB4255520FB00C42A5D /* 421.txt */,
+				174F7CB5255520FB00C42A5D /* 623.txt */,
+				174F7CB6255520FB00C42A5D /* 93.txt */,
+				174F7CB7255520FB00C42A5D /* 186.txt */,
+				174F7CB8255520FB00C42A5D /* 50.txt */,
+				174F7CB9255520FB00C42A5D /* 2.txt */,
+				174F7CBA255520FB00C42A5D /* 541.txt */,
+				174F7CBB255520FB00C42A5D /* 233.txt */,
+				174F7CBC255520FB00C42A5D /* 569.txt */,
+				174F7CBD255520FB00C42A5D /* 594.txt */,
+				174F7CBE255520FB00C42A5D /* 190.txt */,
+				174F7CBF255520FB00C42A5D /* 184.txt */,
+				174F7CC0255520FB00C42A5D /* 609.txt */,
+				174F7CC1255520FB00C42A5D /* 85.txt */,
+				174F7CC2255520FB00C42A5D /* 423.txt */,
+				174F7CC3255520FB00C42A5D /* 344.txt */,
+				174F7CC4255520FB00C42A5D /* 422.txt */,
+				174F7CC5255520FB00C42A5D /* 350.txt */,
+				174F7CC6255520FB00C42A5D /* 146.txt */,
+				174F7CC7255520FB00C42A5D /* 152.txt */,
+				174F7CC8255520FB00C42A5D /* 185.txt */,
+				174F7CC9255520FB00C42A5D /* 191.txt */,
+				174F7CCA255520FB00C42A5D /* 1.txt */,
+				174F7CCB255520FB00C42A5D /* 53.txt */,
+				174F7CCC255520FB00C42A5D /* 230.txt */,
+				174F7CCD255520FB00C42A5D /* 595.txt */,
+				174F7CCE255520FB00C42A5D /* 280.txt */,
+				174F7CCF255520FB00C42A5D /* 294.txt */,
+				174F7CD0255520FB00C42A5D /* 525.txt */,
+				174F7CD1255520FB00C42A5D /* 257.txt */,
+				174F7CD2255520FB00C42A5D /* 690.txt */,
+				174F7CD3255520FB00C42A5D /* 34.txt */,
+				174F7CD4255520FB00C42A5D /* 20.txt */,
+				174F7CD5255520FB00C42A5D /* 135.txt */,
+				174F7CD6255520FB00C42A5D /* 109.txt */,
+				174F7CD7255520FB00C42A5D /* 478.txt */,
+				174F7CD8255520FB00C42A5D /* 336.txt */,
+				174F7CD9255520FB00C42A5D /* 108.txt */,
+				174F7CDA255520FB00C42A5D /* 646.txt */,
+				174F7CDB255520FB00C42A5D /* 120.txt */,
+				174F7CDC255520FB00C42A5D /* 21.txt */,
+				174F7CDD255520FB00C42A5D /* 691.txt */,
+				174F7CDE255520FB00C42A5D /* 518.txt */,
+				174F7CDF255520FB00C42A5D /* 256.txt */,
+				174F7CE0255520FB00C42A5D /* 530.txt */,
+				174F7CE1255520FB00C42A5D /* 524.txt */,
+				174F7CE2255520FB00C42A5D /* 295.txt */,
+				174F7CE3255520FB00C42A5D /* 281.txt */,
+				174F7CE4255520FB00C42A5D /* 254.txt */,
+				174F7CE5255520FB00C42A5D /* 240.txt */,
+				174F7CE6255520FB00C42A5D /* 268.txt */,
+				174F7CE7255520FB00C42A5D /* 693.txt */,
+				174F7CE8255520FB00C42A5D /* 122.txt */,
+				174F7CE9255520FB00C42A5D /* 491.txt */,
+				174F7CEA255520FB00C42A5D /* 334.txt */,
+				174F7CEB255520FB00C42A5D /* 452.txt */,
+				174F7CEC255520FB00C42A5D /* 309.txt */,
+				174F7CED255520FB00C42A5D /* 321.txt */,
+				174F7CEE255520FB00C42A5D /* 484.txt */,
+				174F7CEF255520FB00C42A5D /* 137.txt */,
+				174F7CF0255520FB00C42A5D /* 123.txt */,
+				174F7CF1255520FB00C42A5D /* 645.txt */,
+				174F7CF2255520FB00C42A5D /* 692.txt */,
+				174F7CF3255520FB00C42A5D /* 686.txt */,
+				174F7CF4255520FB00C42A5D /* 241.txt */,
+				174F7CF5255520FB00C42A5D /* 296.txt */,
+				174F7CF6255520FB00C42A5D /* 286.txt */,
+				174F7CF7255520FB00C42A5D /* 251.txt */,
+				174F7CF8255520FB00C42A5D /* 537.txt */,
+				174F7CF9255520FB00C42A5D /* 245.txt */,
+				174F7CFA255520FB00C42A5D /* 26.txt */,
+				174F7CFB255520FB00C42A5D /* 655.txt */,
+				174F7CFC255520FB00C42A5D /* 457.txt */,
+				174F7CFD255520FB00C42A5D /* 331.txt */,
+				174F7CFE255520FB00C42A5D /* 456.txt */,
+				174F7CFF255520FB00C42A5D /* 318.txt */,
+				174F7D00255520FB00C42A5D /* 495.txt */,
+				174F7D01255520FB00C42A5D /* 481.txt */,
+				174F7D02255520FB00C42A5D /* 132.txt */,
+				174F7D03255520FB00C42A5D /* 27.txt */,
+				174F7D04255520FB00C42A5D /* 522.txt */,
+				174F7D05255520FB00C42A5D /* 250.txt */,
+				174F7D06255520FB00C42A5D /* 287.txt */,
+				174F7D07255520FB00C42A5D /* 285.txt */,
+				174F7D08255520FB00C42A5D /* 508.txt */,
+				174F7D09255520FB00C42A5D /* 246.txt */,
+				174F7D0A255520FB00C42A5D /* 520.txt */,
+				174F7D0B255520FB00C42A5D /* 25.txt */,
+				174F7D0C255520FB00C42A5D /* 681.txt */,
+				174F7D0D255520FB00C42A5D /* 19.txt */,
+				174F7D0E255520FB00C42A5D /* 118.txt */,
+				174F7D0F255520FB00C42A5D /* 656.txt */,
+				174F7D10255520FB00C42A5D /* 130.txt */,
+				174F7D11255520FB00C42A5D /* 483.txt */,
+				174F7D12255520FB00C42A5D /* 326.txt */,
+				174F7D13255520FB00C42A5D /* 327.txt */,
+				174F7D14255520FB00C42A5D /* 469.txt */,
+				174F7D15255520FB00C42A5D /* 125.txt */,
+				174F7D16255520FB00C42A5D /* 131.txt */,
+				174F7D17255520FB00C42A5D /* 119.txt */,
+				174F7D18255520FB00C42A5D /* 694.txt */,
+				174F7D19255520FB00C42A5D /* 521.txt */,
+				174F7D1A255520FB00C42A5D /* 284.txt */,
+			);
+			name = lyrics;
+			path = ../src/app/asset/lyrics;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				F38A441A54260D586FE83366 /* libPods-Genesis_Hymn.a */,
+				5F6A5CEC3DFAC7AA1358F4FA /* libPods-Genesis_Hymn-Genesis_HymnTests.a */,
+				BB0B104458A66FAD8BF9F985 /* libPods-Genesis_Hymn-tvOS.a */,
+				7547C8835B8B3CC34CF3C132 /* libPods-Genesis_Hymn-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		754338ACD0BDEDB136F65315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64572C8B184A5A6FFC4A8052 /* Pods-Genesis_Hymn.debug.xcconfig */,
+				5855829636E62A2C11BDEF92 /* Pods-Genesis_Hymn.release.xcconfig */,
+				0975CEFE902189932D5040FD /* Pods-Genesis_Hymn-Genesis_HymnTests.debug.xcconfig */,
+				83BC33E814FC3ADF8763D731 /* Pods-Genesis_Hymn-Genesis_HymnTests.release.xcconfig */,
+				6F1DD0CE1318FA475A3B42AE /* Pods-Genesis_Hymn-tvOS.debug.xcconfig */,
+				2D5870B03D417211827D1F41 /* Pods-Genesis_Hymn-tvOS.release.xcconfig */,
+				4F35E06CAB0ADCAA2626728A /* Pods-Genesis_Hymn-tvOSTests.debug.xcconfig */,
+				8AA10D5F67111395E42F4146 /* Pods-Genesis_Hymn-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				174F7C2D255520FB00C42A5D /* lyrics */,
+				13B07FAE1A68108700A75B9A /* Genesis_Hymn */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* Genesis_HymnTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				754338ACD0BDEDB136F65315 /* Pods */,
+				115196A886C34E5CB67ECCE9 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Genesis_Hymn.app */,
+				00E356EE1AD99517003FC87E /* Genesis_HymnTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Genesis_Hymn-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Genesis_Hymn-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* Genesis_HymnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Genesis_HymnTests" */;
+			buildPhases = (
+				7F4B384E38667BD2C6B861F9 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				663BFC2EA38F55DCF00306FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = Genesis_HymnTests;
+			productName = Genesis_HymnTests;
+			productReference = 00E356EE1AD99517003FC87E /* Genesis_HymnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Genesis_Hymn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Genesis_Hymn" */;
+			buildPhases = (
+				7F601A9B6668E148AD431808 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8B7F3FC0B199A966C9BA4449 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genesis_Hymn;
+			productName = Genesis_Hymn;
+			productReference = 13B07F961A680F5B00A75B9A /* Genesis_Hymn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Genesis_Hymn-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Genesis_Hymn-tvOS" */;
+			buildPhases = (
+				CCD87EA25C68EE678BC46562 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Genesis_Hymn-tvOS";
+			productName = "Genesis_Hymn-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Genesis_Hymn-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Genesis_Hymn-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Genesis_Hymn-tvOSTests" */;
+			buildPhases = (
+				FF958AF6E7CE4E05897DE3A0 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Genesis_Hymn-tvOSTests";
+			productName = "Genesis_Hymn-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Genesis_Hymn-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 79JBG3F87B;
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Genesis_Hymn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Genesis_Hymn */,
+				00E356ED1AD99517003FC87E /* Genesis_HymnTests */,
+				2D02E47A1E0B4A5D006451C7 /* Genesis_Hymn-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Genesis_Hymn-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174F7DC4255520FC00C42A5D /* 478.txt in Resources */,
+				174F7DB0255520FC00C42A5D /* 344.txt in Resources */,
+				174F7D51255520FB00C42A5D /* 572.txt in Resources */,
+				174F7D3E255520FB00C42A5D /* 306.txt in Resources */,
+				174F7DCE255520FC00C42A5D /* 524.txt in Resources */,
+				174F7DF7255520FC00C42A5D /* 520.txt in Resources */,
+				174F7D32255520FB00C42A5D /* 274.txt in Resources */,
+				174F7D69255520FC00C42A5D /* 210.txt in Resources */,
+				174F7D8C255520FC00C42A5D /* 551.txt in Resources */,
+				174F7DA9255520FC00C42A5D /* 569.txt in Resources */,
+				174F7DA7255520FC00C42A5D /* 541.txt in Resources */,
+				174F7D92255520FC00C42A5D /* 141.txt in Resources */,
+				174F7D73255520FC00C42A5D /* 615.txt in Resources */,
+				174F7DE3255520FC00C42A5D /* 286.txt in Resources */,
+				174F7DF1255520FC00C42A5D /* 522.txt in Resources */,
+				174F7E01255520FC00C42A5D /* 469.txt in Resources */,
+				174F7DF9255520FC00C42A5D /* 681.txt in Resources */,
+				174F7DDE255520FC00C42A5D /* 645.txt in Resources */,
+				174F7DDC255520FC00C42A5D /* 137.txt in Resources */,
+				174F7D8F255520FC00C42A5D /* 182.txt in Resources */,
+				174F7D83255520FC00C42A5D /* 355.txt in Resources */,
+				174F7DBA255520FC00C42A5D /* 595.txt in Resources */,
+				174F7D24255520FB00C42A5D /* 115.txt in Resources */,
+				174F7DFB255520FC00C42A5D /* 118.txt in Resources */,
+				174F7D9B255520FC00C42A5D /* 222.txt in Resources */,
+				174F7D4E255520FB00C42A5D /* 604.txt in Resources */,
+				174F7D40255520FB00C42A5D /* 662.txt in Resources */,
+				174F7D3F255520FB00C42A5D /* 312.txt in Resources */,
+				174F7D9A255520FC00C42A5D /* 183.txt in Resources */,
+				174F7D4A255520FB00C42A5D /* 76.txt in Resources */,
+				174F7D2B255520FB00C42A5D /* 473.txt in Resources */,
+				174F7D33255520FB00C42A5D /* 516.txt in Resources */,
+				174F7DC7255520FC00C42A5D /* 646.txt in Resources */,
+				174F7DC8255520FC00C42A5D /* 120.txt in Resources */,
+				174F7D81255520FC00C42A5D /* 432.txt in Resources */,
+				174F7D26255520FB00C42A5D /* 16.txt in Resources */,
+				174F7D99255520FC00C42A5D /* 7.txt in Resources */,
+				174F7D6C255520FC00C42A5D /* 614.txt in Resources */,
+				174F7D82255520FC00C42A5D /* 341.txt in Resources */,
+				174F7D34255520FB00C42A5D /* 660.txt in Resources */,
+				174F7DA3255520FC00C42A5D /* 93.txt in Resources */,
+				174F7D30255520FB00C42A5D /* 499.txt in Resources */,
+				174F7D61255520FB00C42A5D /* 367.txt in Resources */,
+				174F7DEB255520FC00C42A5D /* 456.txt in Resources */,
+				174F7D53255520FB00C42A5D /* 202.txt in Resources */,
+				174F7D7E255520FC00C42A5D /* 142.txt in Resources */,
+				174F7DFF255520FC00C42A5D /* 326.txt in Resources */,
+				174F7D20255520FB00C42A5D /* 470.txt in Resources */,
+				174F7DB7255520FC00C42A5D /* 1.txt in Resources */,
+				174F7D56255520FB00C42A5D /* 74.txt in Resources */,
+				174F7D49255520FB00C42A5D /* 229.txt in Resources */,
+				174F7D8B255520FC00C42A5D /* 237.txt in Resources */,
+				174F7DAF255520FC00C42A5D /* 423.txt in Resources */,
+				174F7DAA255520FC00C42A5D /* 594.txt in Resources */,
+				174F7DB3255520FC00C42A5D /* 146.txt in Resources */,
+				174F7DA1255520FC00C42A5D /* 421.txt in Resources */,
+				174F7D2A255520FB00C42A5D /* 301.txt in Resources */,
+				174F7E02255520FC00C42A5D /* 125.txt in Resources */,
+				174F7D5C255520FB00C42A5D /* 64.txt in Resources */,
+				174F7DD8255520FC00C42A5D /* 452.txt in Resources */,
+				174F7D6A255520FC00C42A5D /* 576.txt in Resources */,
+				174F7DE8255520FC00C42A5D /* 655.txt in Resources */,
+				174F7D8E255520FC00C42A5D /* 223.txt in Resources */,
+				174F7D44255520FB00C42A5D /* 272.txt in Resources */,
+				174F7DF8255520FC00C42A5D /* 25.txt in Resources */,
+				174F7DEC255520FC00C42A5D /* 318.txt in Resources */,
+				174F7D54255520FB00C42A5D /* 612.txt in Resources */,
+				174F7DD9255520FC00C42A5D /* 309.txt in Resources */,
+				174F7D6B255520FC00C42A5D /* 73.txt in Resources */,
+				174F7D5B255520FB00C42A5D /* 207.txt in Resources */,
+				174F7DAE255520FC00C42A5D /* 85.txt in Resources */,
+				174F7D57255520FB00C42A5D /* 48.txt in Resources */,
+				174F7E04255520FC00C42A5D /* 119.txt in Resources */,
+				174F7DF5255520FC00C42A5D /* 508.txt in Resources */,
+				174F7DE1255520FC00C42A5D /* 241.txt in Resources */,
+				174F7D84255520FC00C42A5D /* 619.txt in Resources */,
+				174F7E00255520FC00C42A5D /* 327.txt in Resources */,
+				174F7DD5255520FC00C42A5D /* 122.txt in Resources */,
+				174F7D5A255520FB00C42A5D /* 213.txt in Resources */,
+				174F7D3D255520FB00C42A5D /* joachim_neander.txt in Resources */,
+				174F7D7F255520FC00C42A5D /* 624.txt in Resources */,
+				174F7D79255520FC00C42A5D /* 208.txt in Resources */,
+				174F7D6F255520FC00C42A5D /* 370.txt in Resources */,
+				174F7D88255520FC00C42A5D /* 4.txt in Resources */,
+				174F7DC6255520FC00C42A5D /* 108.txt in Resources */,
+				174F7D91255520FC00C42A5D /* 6.txt in Resources */,
+				174F7DB2255520FC00C42A5D /* 350.txt in Resources */,
+				174F7DB8255520FC00C42A5D /* 53.txt in Resources */,
+				174F7DB1255520FC00C42A5D /* 422.txt in Resources */,
+				174F7D55255520FB00C42A5D /* 404.txt in Resources */,
+				174F7DCF255520FC00C42A5D /* 295.txt in Resources */,
+				174F7DFE255520FC00C42A5D /* 483.txt in Resources */,
+				174F7D86255520FC00C42A5D /* 157.txt in Resources */,
+				174F7D3C255520FB00C42A5D /* 529.txt in Resources */,
+				174F7D9D255520FC00C42A5D /* 554.txt in Resources */,
+				174F7DE9255520FC00C42A5D /* 457.txt in Resources */,
+				174F7DB6255520FC00C42A5D /* 191.txt in Resources */,
+				174F7DF0255520FC00C42A5D /* 27.txt in Resources */,
+				174F7DA2255520FC00C42A5D /* 623.txt in Resources */,
+				174F7DA5255520FC00C42A5D /* 50.txt in Resources */,
+				174F7DCB255520FC00C42A5D /* 518.txt in Resources */,
+				174F7D8D255520FC00C42A5D /* 545.txt in Resources */,
+				174F7D59255520FB00C42A5D /* 565.txt in Resources */,
+				174F7DF4255520FC00C42A5D /* 285.txt in Resources */,
+				174F7D98255520FC00C42A5D /* 626.txt in Resources */,
+				174F7D5E255520FB00C42A5D /* 159.txt in Resources */,
+				174F7E03255520FC00C42A5D /* 131.txt in Resources */,
+				174F7D45255520FB00C42A5D /* 266.txt in Resources */,
+				174F7DD3255520FC00C42A5D /* 268.txt in Resources */,
+				174F7D22255520FB00C42A5D /* 303.txt in Resources */,
+				174F7DC2255520FC00C42A5D /* 135.txt in Resources */,
+				174F7DAC255520FC00C42A5D /* 184.txt in Resources */,
+				174F7DAB255520FC00C42A5D /* 190.txt in Resources */,
+				174F7D4F255520FB00C42A5D /* 88.txt in Resources */,
+				174F7DFD255520FC00C42A5D /* 130.txt in Resources */,
+				174F7D7A255520FC00C42A5D /* 195.txt in Resources */,
+				174F7E07255520FC00C42A5D /* 284.txt in Resources */,
+				174F7D63255520FB00C42A5D /* 428.txt in Resources */,
+				174F7DAD255520FC00C42A5D /* 609.txt in Resources */,
+				174F7D1E255520FB00C42A5D /* 100.txt in Resources */,
+				174F7DE2255520FC00C42A5D /* 296.txt in Resources */,
+				174F7D64255520FB00C42A5D /* 65.txt in Resources */,
+				174F7D1D255520FB00C42A5D /* 15.txt in Resources */,
+				174F7D74255520FC00C42A5D /* 8.txt in Resources */,
+				174F7D5F255520FB00C42A5D /* 171.txt in Resources */,
+				174F7D85255520FC00C42A5D /* 143.txt in Resources */,
+				174F7D29255520FB00C42A5D /* 671.txt in Resources */,
+				174F7DCD255520FC00C42A5D /* 530.txt in Resources */,
+				174F7D6E255520FC00C42A5D /* 358.txt in Resources */,
+				174F7DD6255520FC00C42A5D /* 491.txt in Resources */,
+				174F7D42255520FB00C42A5D /* 39.txt in Resources */,
+				174F7D47255520FB00C42A5D /* 201.txt in Resources */,
+				174F7D3A255520FB00C42A5D /* 271.txt in Resources */,
+				174F7DB5255520FC00C42A5D /* 185.txt in Resources */,
+				174F7DC5255520FC00C42A5D /* 336.txt in Resources */,
+				174F7D4C255520FB00C42A5D /* 413.txt in Resources */,
+				174F7D37255520FB00C42A5D /* 477.txt in Resources */,
+				174F7D28255520FB00C42A5D /* 665.txt in Resources */,
+				174F7D60255520FB00C42A5D /* 401.txt in Resources */,
+				174F7DB4255520FC00C42A5D /* 152.txt in Resources */,
+				174F7D46255520FB00C42A5D /* 500.txt in Resources */,
+				174F7DB9255520FC00C42A5D /* 230.txt in Resources */,
+				174F7D9E255520FC00C42A5D /* 51.txt in Resources */,
+				174F7DE7255520FC00C42A5D /* 26.txt in Resources */,
+				174F7D35255520FB00C42A5D /* 674.txt in Resources */,
+				174F7D80255520FC00C42A5D /* 618.txt in Resources */,
+				174F7DEF255520FC00C42A5D /* 132.txt in Resources */,
+				174F7D95255520FC00C42A5D /* 82.txt in Resources */,
+				174F7DBF255520FC00C42A5D /* 690.txt in Resources */,
+				174F7D21255520FB00C42A5D /* 458.txt in Resources */,
+				174F7D75255520FC00C42A5D /* 198.txt in Resources */,
+				174F7D50255520FB00C42A5D /* 228.txt in Resources */,
+				174F7D2E255520FB00C42A5D /* 314.txt in Resources */,
+				174F7DC3255520FC00C42A5D /* 109.txt in Resources */,
+				174F7D76255520FC00C42A5D /* 205.txt in Resources */,
+				174F7D93255520FC00C42A5D /* 83.txt in Resources */,
+				174F7DEE255520FC00C42A5D /* 481.txt in Resources */,
+				174F7D7B255520FC00C42A5D /* 181.txt in Resources */,
+				174F7DBC255520FC00C42A5D /* 294.txt in Resources */,
+				174F7DFC255520FC00C42A5D /* 656.txt in Resources */,
+				174F7D38255520FB00C42A5D /* 463.txt in Resources */,
+				174F7D65255520FB00C42A5D /* 206.txt in Resources */,
+				174F7D5D255520FB00C42A5D /* 70.txt in Resources */,
+				174F7DC9255520FC00C42A5D /* 21.txt in Resources */,
+				174F7DD2255520FC00C42A5D /* 240.txt in Resources */,
+				174F7DC1255520FC00C42A5D /* 20.txt in Resources */,
+				174F7D41255520FB00C42A5D /* 138.txt in Resources */,
+				174F7D2C255520FB00C42A5D /* 329.txt in Resources */,
+				174F7D1F255520FB00C42A5D /* 128.txt in Resources */,
+				174F7D31255520FB00C42A5D /* 506.txt in Resources */,
+				174F7DD1255520FC00C42A5D /* 254.txt in Resources */,
+				174F7D8A255520FC00C42A5D /* 590.txt in Resources */,
+				174F7DA4255520FC00C42A5D /* 186.txt in Resources */,
+				174F7D4B255520FB00C42A5D /* 163.txt in Resources */,
+				174F7D68255520FC00C42A5D /* 204.txt in Resources */,
+				174F7D72255520FC00C42A5D /* 601.txt in Resources */,
+				174F7D9F255520FC00C42A5D /* 92.txt in Resources */,
+				174F7D67255520FC00C42A5D /* 548.txt in Resources */,
+				174F7DDD255520FC00C42A5D /* 123.txt in Resources */,
+				174F7D2F255520FB00C42A5D /* 300.txt in Resources */,
+				174F7D43255520FB00C42A5D /* 11.txt in Resources */,
+				174F7DDB255520FC00C42A5D /* 484.txt in Resources */,
+				174F7D90255520FC00C42A5D /* 196.txt in Resources */,
+				174F7DC0255520FC00C42A5D /* 34.txt in Resources */,
+				174F7D39255520FB00C42A5D /* 12.txt in Resources */,
+				174F7D36255520FB00C42A5D /* 462.txt in Resources */,
+				174F7D94255520FC00C42A5D /* 96.txt in Resources */,
+				174F7D1B255520FB00C42A5D /* 538.txt in Resources */,
+				174F7D48255520FB00C42A5D /* 567.txt in Resources */,
+				174F7D52255520FB00C42A5D /* 216.txt in Resources */,
+				174F7D3B255520FB00C42A5D /* 517.txt in Resources */,
+				174F7D70255520FC00C42A5D /* 365.txt in Resources */,
+				174F7D4D255520FB00C42A5D /* 348.txt in Resources */,
+				174F7DBE255520FC00C42A5D /* 257.txt in Resources */,
+				174F7D97255520FC00C42A5D /* 632.txt in Resources */,
+				174F7D89255520FC00C42A5D /* 221.txt in Resources */,
+				174F7DF3255520FC00C42A5D /* 287.txt in Resources */,
+				174F7D6D255520FC00C42A5D /* 166.txt in Resources */,
+				174F7DE6255520FC00C42A5D /* 245.txt in Resources */,
+				174F7DA0255520FC00C42A5D /* 385.txt in Resources */,
+				174F7D71255520FC00C42A5D /* 99.txt in Resources */,
+				174F7DF2255520FC00C42A5D /* 250.txt in Resources */,
+				174F7DBB255520FC00C42A5D /* 280.txt in Resources */,
+				174F7D78255520FC00C42A5D /* 591.txt in Resources */,
+				174F7D7D255520FC00C42A5D /* 156.txt in Resources */,
+				174F7D87255520FC00C42A5D /* 56.txt in Resources */,
+				174F7DE5255520FC00C42A5D /* 537.txt in Resources */,
+				174F7DD4255520FC00C42A5D /* 693.txt in Resources */,
+				174F7D58255520FB00C42A5D /* 559.txt in Resources */,
+				174F7DFA255520FC00C42A5D /* 19.txt in Resources */,
+				174F7DCC255520FC00C42A5D /* 256.txt in Resources */,
+				174F7D27255520FB00C42A5D /* 103.txt in Resources */,
+				174F7D9C255520FC00C42A5D /* 236.txt in Resources */,
+				174F7D2D255520FB00C42A5D /* 328.txt in Resources */,
+				174F7D62255520FB00C42A5D /* 373.txt in Resources */,
+				174F7D96255520FC00C42A5D /* 154.txt in Resources */,
+				174F7D77255520FC00C42A5D /* 239.txt in Resources */,
+				174F7DEA255520FC00C42A5D /* 331.txt in Resources */,
+				174F7DDF255520FC00C42A5D /* 692.txt in Resources */,
+				174F7DE0255520FC00C42A5D /* 686.txt in Resources */,
+				174F7DE4255520FC00C42A5D /* 251.txt in Resources */,
+				174F7DED255520FC00C42A5D /* 495.txt in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				174F7DCA255520FC00C42A5D /* 691.txt in Resources */,
+				174F7D7C255520FC00C42A5D /* 43.txt in Resources */,
+				174F7E05255520FC00C42A5D /* 694.txt in Resources */,
+				174F7DD0255520FC00C42A5D /* 281.txt in Resources */,
+				174F7DDA255520FC00C42A5D /* 321.txt in Resources */,
+				174F7DF6255520FC00C42A5D /* 246.txt in Resources */,
+				174F7D25255520FB00C42A5D /* 249.txt in Resources */,
+				174F7DD7255520FC00C42A5D /* 334.txt in Resources */,
+				174F7E06255520FC00C42A5D /* 521.txt in Resources */,
+				174F7D66255520FC00C42A5D /* 574.txt in Resources */,
+				174F7D1C255520FB00C42A5D /* 29.txt in Resources */,
+				174F7DA8255520FC00C42A5D /* 233.txt in Resources */,
+				174F7DBD255520FC00C42A5D /* 525.txt in Resources */,
+				174F7D23255520FB00C42A5D /* 101.txt in Resources */,
+				174F7DA6255520FC00C42A5D /* 2.txt in Resources */,
+				C5DFC45DDD12436E9A442CCB /* NotoSans-Bold.ttf in Resources */,
+				9AD163177E1644FA83B56568 /* NotoSans-Regular.ttf in Resources */,
+				CCBE70DCC45746DE82FD6FA6 /* Roboto-Black.ttf in Resources */,
+				58B2187CD8FD41A6A1F19AC1 /* Roboto-Bold.ttf in Resources */,
+				65137AB399144300A298D666 /* Roboto-Light.ttf in Resources */,
+				61B8920787724AA7B4BCBD2B /* Roboto-Medium.ttf in Resources */,
+				F209AB4601D545E497F2C1A9 /* Roboto-Regular.ttf in Resources */,
+				3EAC5A044B9542B69204C199 /* Roboto-Thin.ttf in Resources */,
+				C66B8C7FB2274721A3FDB284 /* AntDesign.ttf in Resources */,
+				C4F14E5A5158485D83D26FAC /* Entypo.ttf in Resources */,
+				2406D6394C654655A8146A99 /* EvilIcons.ttf in Resources */,
+				F94A8968350A4EDAA3DBE84E /* Feather.ttf in Resources */,
+				5B41D60FC0A243F489F2FFD8 /* FontAwesome.ttf in Resources */,
+				AC1AFAFDAB9C471EB008DE86 /* FontAwesome5_Brands.ttf in Resources */,
+				B0A697DBA9C0480393CB1BCC /* FontAwesome5_Regular.ttf in Resources */,
+				0891085F72664DC8B30D0A7F /* FontAwesome5_Solid.ttf in Resources */,
+				AE634ACDDBD14F41A8BBD59E /* Fontisto.ttf in Resources */,
+				E96EAC80990C4235893279C0 /* Foundation.ttf in Resources */,
+				82B4F0E61B684931903BD1AD /* Ionicons.ttf in Resources */,
+				C4034E2F8795452197712F67 /* MaterialCommunityIcons.ttf in Resources */,
+				D1DCFEBFFDED4345A2064BAB /* MaterialIcons.ttf in Resources */,
+				9BC48A29091447E5A3950F76 /* Octicons.ttf in Resources */,
+				B49400B3DC8449C78B09F3C6 /* SimpleLineIcons.ttf in Resources */,
+				1B445B911D7F4E6CBD34B1BC /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		663BFC2EA38F55DCF00306FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Genesis_Hymn-Genesis_HymnTests/Pods-Genesis_Hymn-Genesis_HymnTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Genesis_Hymn-Genesis_HymnTests/Pods-Genesis_Hymn-Genesis_HymnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4B384E38667BD2C6B861F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genesis_Hymn-Genesis_HymnTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F601A9B6668E148AD431808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genesis_Hymn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7F3FC0B199A966C9BA4449 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Genesis_Hymn/Pods-Genesis_Hymn-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Genesis_Hymn/Pods-Genesis_Hymn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD87EA25C68EE678BC46562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genesis_Hymn-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF958AF6E7CE4E05897DE3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genesis_Hymn-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* Genesis_HymnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* Genesis_HymnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Genesis_Hymn */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Genesis_Hymn-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0975CEFE902189932D5040FD /* Pods-Genesis_Hymn-Genesis_HymnTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Genesis_HymnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genesis_Hymn.app/Genesis_Hymn";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BC33E814FC3ADF8763D731 /* Pods-Genesis_Hymn-Genesis_HymnTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = Genesis_HymnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genesis_Hymn.app/Genesis_Hymn";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64572C8B184A5A6FFC4A8052 /* Pods-Genesis_Hymn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 79JBG3F87B;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Genesis_Hymn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabbatech.hymn;
+				PRODUCT_NAME = Genesis_Hymn;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5855829636E62A2C11BDEF92 /* Pods-Genesis_Hymn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 79JBG3F87B;
+				INFOPLIST_FILE = Genesis_Hymn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabbatech.hymn;
+				PRODUCT_NAME = Genesis_Hymn;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1DD0CE1318FA475A3B42AE /* Pods-Genesis_Hymn-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Genesis_Hymn-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Genesis_Hymn-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5870B03D417211827D1F41 /* Pods-Genesis_Hymn-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Genesis_Hymn-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Genesis_Hymn-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F35E06CAB0ADCAA2626728A /* Pods-Genesis_Hymn-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Genesis_Hymn-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Genesis_Hymn-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genesis_Hymn-tvOS.app/Genesis_Hymn-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA10D5F67111395E42F4146 /* Pods-Genesis_Hymn-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Genesis_Hymn-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Genesis_Hymn-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genesis_Hymn-tvOS.app/Genesis_Hymn-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Genesis_HymnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Genesis_Hymn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Genesis_Hymn-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Genesis_Hymn-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Genesis_Hymn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

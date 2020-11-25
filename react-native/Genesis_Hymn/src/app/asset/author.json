@@ -1,0 +1,93 @@
+[
+    {
+        "author": "Charles Wesley",
+        "Id": "8",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "F E Belden",
+        "Id": "2",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "Fanny J Crosby",
+        "Id": "1",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "Isaac Watts",
+        "Id": "0",
+        "songs": [
+            "1",
+            "10",
+            "18",
+            "19",
+            "20",
+            "227",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "5",
+            "6",
+            "7",
+            "8",
+            "86",
+            "9",
+            "90",
+            "94"
+        ]
+    },
+    {
+        "author": "James Russel Lowell",
+        "Id": "4",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "John H Yates",
+        "Id": "5",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "Phoebe Plamer",
+        "Id": "3",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "Uriah Smith",
+        "Id": "6",
+        "songs": [
+            "1",
+            "5"
+        ]
+    },
+    {
+        "author": "William F Sherwin",
+        "Id": "7",
+        "songs": [
+            "1",
+            "5"
+        ]
+    }
+]
